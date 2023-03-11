@@ -1,0 +1,16 @@
+# CMake generation dependency list for this directory.
+D:/Study/Python/Lib/opencv-4.5.0/3rdparty/ffmpeg/ffmpeg.cmake
+D:/Study/Python/Lib/opencv-4.5.0/build/3rdparty/ffmpeg/ffmpeg_version.cmake
+D:/Study/Python/Lib/opencv-4.5.0/modules/CMakeLists.txt
+D:/Study/Python/Lib/opencv-4.5.0/modules/gapi/cmake/DownloadADE.cmake
+D:/Study/Python/Lib/opencv-4.5.0/modules/gapi/cmake/init.cmake
+D:/Study/Python/Lib/opencv-4.5.0/modules/videoio/cmake/detect_dc1394.cmake
+D:/Study/Python/Lib/opencv-4.5.0/modules/videoio/cmake/detect_dshow.cmake
+D:/Study/Python/Lib/opencv-4.5.0/modules/videoio/cmake/detect_ffmpeg.cmake
+D:/Study/Python/Lib/opencv-4.5.0/modules/videoio/cmake/detect_gstreamer.cmake
+D:/Study/Python/Lib/opencv-4.5.0/modules/videoio/cmake/detect_msmf.cmake
+D:/Study/Python/Lib/opencv-4.5.0/modules/videoio/cmake/init.cmake
+D:/Study/Python/Lib/opencv_contrib-4.5.0/modules/julia/cmake/init.cmake
+D:/Study/Python/Lib/opencv_contrib-4.5.0/modules/matlab/cmake/init.cmake
+D:/Study/Python/Lib/opencv_contrib-4.5.0/modules/text/cmake/FindTesseract.cmake
+D:/Study/Python/Lib/opencv_contrib-4.5.0/modules/text/cmake/init.cmake

@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\src\adaptive_manifold_filter_n.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\src\anisodiff.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\src\bilateral_texture_filter.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\src\brightedges.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\src\deriche_filter.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\src\disparity_filters.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\src\domain_transform.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\src\dtfilter_cpu.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\src\edgeaware_filters_common.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\src\edgeboxes.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\src\edgepreserving_filter.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\src\estimated_covariance.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\src\fast_hough_transform.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\src\fast_line_detector.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\src\fbs_filter.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\src\fgs_filter.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\src\fourier_descriptors.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\src\graphsegmentation.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\src\guided_filter.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\src\joint_bilateral_filter.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\src\l0_smooth.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\src\lsc.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\src\niblack_thresholding.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\src\paillou_filter.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\src\peilin.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\src\quaternion.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\src\ridgedetectionfilter.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\src\rolling_guidance_filter.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\src\run_length_morphology.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\src\seeds.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\src\selectivesearchsegmentation.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\src\slic.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\src\sparse_match_interpolators.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\src\structured_edge_detection.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\src\thinning.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\src\weighted_median_filter.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\ximgproc\opencl_kernels_ximgproc.cpp">
+      <Filter>Src\opencl\kernels\autogenerated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\ximgproc\opencv_ximgproc_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\include\opencv2\ximgproc.hpp">
+      <Filter>Include\opencv2</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\include\opencv2\ximgproc\brightedges.hpp">
+      <Filter>Include\opencv2\ximgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\include\opencv2\ximgproc\color_match.hpp">
+      <Filter>Include\opencv2\ximgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\include\opencv2\ximgproc\deriche_filter.hpp">
+      <Filter>Include\opencv2\ximgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\include\opencv2\ximgproc\disparity_filter.hpp">
+      <Filter>Include\opencv2\ximgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\include\opencv2\ximgproc\edge_filter.hpp">
+      <Filter>Include\opencv2\ximgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\include\opencv2\ximgproc\edgeboxes.hpp">
+      <Filter>Include\opencv2\ximgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\include\opencv2\ximgproc\edgepreserving_filter.hpp">
+      <Filter>Include\opencv2\ximgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\include\opencv2\ximgproc\estimated_covariance.hpp">
+      <Filter>Include\opencv2\ximgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\include\opencv2\ximgproc\fast_hough_transform.hpp">
+      <Filter>Include\opencv2\ximgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\include\opencv2\ximgproc\fast_line_detector.hpp">
+      <Filter>Include\opencv2\ximgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\include\opencv2\ximgproc\fourier_descriptors.hpp">
+      <Filter>Include\opencv2\ximgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\include\opencv2\ximgproc\lsc.hpp">
+      <Filter>Include\opencv2\ximgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\include\opencv2\ximgproc\paillou_filter.hpp">
+      <Filter>Include\opencv2\ximgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\include\opencv2\ximgproc\peilin.hpp">
+      <Filter>Include\opencv2\ximgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\include\opencv2\ximgproc\ridgefilter.hpp">
+      <Filter>Include\opencv2\ximgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\include\opencv2\ximgproc\run_length_morphology.hpp">
+      <Filter>Include\opencv2\ximgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\include\opencv2\ximgproc\seeds.hpp">
+      <Filter>Include\opencv2\ximgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\include\opencv2\ximgproc\segmentation.hpp">
+      <Filter>Include\opencv2\ximgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\include\opencv2\ximgproc\slic.hpp">
+      <Filter>Include\opencv2\ximgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\include\opencv2\ximgproc\sparse_match_interpolator.hpp">
+      <Filter>Include\opencv2\ximgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\include\opencv2\ximgproc\structured_edge_detection.hpp">
+      <Filter>Include\opencv2\ximgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\include\opencv2\ximgproc\weighted_median_filter.hpp">
+      <Filter>Include\opencv2\ximgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\ximgproc\opencl_kernels_ximgproc.hpp">
+      <Filter>Src\opencl\kernels\autogenerated</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\src\advanced_types.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\src\dtfilter_cpu.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\src\dtfilter_cpu.inl.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\src\edgeaware_filters_common.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\src\precomp.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\build\cvconfig.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\build\opencv2\opencv_modules.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\634e1ce3f13ee0228f6eaf480367aea3\opencl_kernels_ximgproc.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\src\opencl\anisodiff.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\ximgproc\vs_version.rc">
+      <Filter>Src</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{16373809-72C4-3C94-9E1E-610450923A37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{7B934226-BF50-3DE1-B937-8EA8471035E2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2">
+      <UniqueIdentifier>{6F4F6A9B-E0CD-3FE5-B12D-891088625776}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2\ximgproc">
+      <UniqueIdentifier>{22FD6826-9039-36A4-9B40-23452360E8CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{724F6620-C0A2-3992-AF9D-62DBEF5A36C5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{6BDAB249-4DEF-3DAD-A179-38B43786DF6F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\opencl">
+      <UniqueIdentifier>{EDD8F861-BFC7-3D19-BFFB-15710C273F99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\opencl\kernels">
+      <UniqueIdentifier>{512BCC15-AD11-3EAE-B11E-ECC5C4FCCACA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\opencl\kernels\autogenerated">
+      <UniqueIdentifier>{8CE9D8A4-D183-35F8-9095-03E22E229446}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

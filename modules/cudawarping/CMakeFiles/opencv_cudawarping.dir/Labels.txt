@@ -1,0 +1,58 @@
+# Target labels
+ Extra
+ opencv_cudawarping
+ Module
+# Source files and their labels
+D:/Study/Python/Lib/opencv_contrib-4.5.0/modules/cudawarping/include/opencv2/cudawarping.hpp
+ Extra
+ opencv_cudawarping
+ Module
+D:/Study/Python/Lib/opencv_contrib-4.5.0/modules/cudawarping/src/pyramids.cpp
+ Extra
+ opencv_cudawarping
+ Module
+D:/Study/Python/Lib/opencv_contrib-4.5.0/modules/cudawarping/src/remap.cpp
+ Extra
+ opencv_cudawarping
+ Module
+D:/Study/Python/Lib/opencv_contrib-4.5.0/modules/cudawarping/src/resize.cpp
+ Extra
+ opencv_cudawarping
+ Module
+D:/Study/Python/Lib/opencv_contrib-4.5.0/modules/cudawarping/src/warp.cpp
+ Extra
+ opencv_cudawarping
+ Module
+D:/Study/Python/Lib/opencv_contrib-4.5.0/modules/cudawarping/src/precomp.hpp
+ Extra
+ opencv_cudawarping
+ Module
+D:/Study/Python/Lib/opencv_contrib-4.5.0/modules/cudawarping/src/cuda/pyr_down.cu
+ Extra
+ opencv_cudawarping
+ Module
+D:/Study/Python/Lib/opencv_contrib-4.5.0/modules/cudawarping/src/cuda/pyr_up.cu
+ Extra
+ opencv_cudawarping
+ Module
+D:/Study/Python/Lib/opencv_contrib-4.5.0/modules/cudawarping/src/cuda/remap.cu
+ Extra
+ opencv_cudawarping
+ Module
+D:/Study/Python/Lib/opencv_contrib-4.5.0/modules/cudawarping/src/cuda/resize.cu
+ Extra
+ opencv_cudawarping
+ Module
+D:/Study/Python/Lib/opencv_contrib-4.5.0/modules/cudawarping/src/cuda/warp.cu
+ Extra
+ opencv_cudawarping
+ Module
+D:/Study/Python/Lib/opencv-4.5.0/build/cvconfig.h
+D:/Study/Python/Lib/opencv-4.5.0/build/opencv2/opencv_modules.hpp
+D:/Study/Python/Lib/opencv-4.5.0/build/modules/cudawarping/vs_version.rc
+D:/Study/Python/Lib/opencv-4.5.0/build/modules/cudawarping/opencv_cudawarping_main.cpp
+D:/Study/Python/Lib/opencv-4.5.0/build/modules/cudawarping/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_pyr_down.cu.obj
+D:/Study/Python/Lib/opencv-4.5.0/build/modules/cudawarping/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_pyr_up.cu.obj
+D:/Study/Python/Lib/opencv-4.5.0/build/modules/cudawarping/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_remap.cu.obj
+D:/Study/Python/Lib/opencv-4.5.0/build/modules/cudawarping/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_resize.cu.obj
+D:/Study/Python/Lib/opencv-4.5.0/build/modules/cudawarping/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_warp.cu.obj

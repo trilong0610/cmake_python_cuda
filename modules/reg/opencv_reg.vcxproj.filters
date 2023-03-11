@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\reg\src\map.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\reg\src\mapaffine.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\reg\src\mapper.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\reg\src\mappergradaffine.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\reg\src\mappergradeuclid.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\reg\src\mappergradproj.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\reg\src\mappergradshift.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\reg\src\mappergradsimilar.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\reg\src\mapperpyramid.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\reg\src\mapprojec.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\reg\src\mapshift.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\reg\opencv_reg_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\reg\include\opencv2\reg\map.hpp">
+      <Filter>Include\opencv2\reg</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\reg\include\opencv2\reg\mapaffine.hpp">
+      <Filter>Include\opencv2\reg</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\reg\include\opencv2\reg\mapper.hpp">
+      <Filter>Include\opencv2\reg</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\reg\include\opencv2\reg\mappergradaffine.hpp">
+      <Filter>Include\opencv2\reg</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\reg\include\opencv2\reg\mappergradeuclid.hpp">
+      <Filter>Include\opencv2\reg</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\reg\include\opencv2\reg\mappergradproj.hpp">
+      <Filter>Include\opencv2\reg</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\reg\include\opencv2\reg\mappergradshift.hpp">
+      <Filter>Include\opencv2\reg</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\reg\include\opencv2\reg\mappergradsimilar.hpp">
+      <Filter>Include\opencv2\reg</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\reg\include\opencv2\reg\mapperpyramid.hpp">
+      <Filter>Include\opencv2\reg</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\reg\include\opencv2\reg\mapprojec.hpp">
+      <Filter>Include\opencv2\reg</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\reg\include\opencv2\reg\mapshift.hpp">
+      <Filter>Include\opencv2\reg</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\reg\src\precomp.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\build\cvconfig.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\build\opencv2\opencv_modules.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\reg\vs_version.rc">
+      <Filter>Src</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{7B934226-BF50-3DE1-B937-8EA8471035E2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2">
+      <UniqueIdentifier>{6F4F6A9B-E0CD-3FE5-B12D-891088625776}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2\reg">
+      <UniqueIdentifier>{46DB7701-5314-3F35-9C00-C1AD3048D17D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{724F6620-C0A2-3992-AF9D-62DBEF5A36C5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{6BDAB249-4DEF-3DAD-A179-38B43786DF6F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

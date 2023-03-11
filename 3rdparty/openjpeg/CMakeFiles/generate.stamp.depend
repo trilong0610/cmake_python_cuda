@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.25/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CheckIncludeFiles.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CheckSymbolExists.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/TestBigEndian.cmake
+D:/Study/Python/Lib/opencv-4.5.0/3rdparty/openjpeg/CMakeLists.txt
+D:/Study/Python/Lib/opencv-4.5.0/3rdparty/openjpeg/openjp2/opj_config.h.cmake.in
+D:/Study/Python/Lib/opencv-4.5.0/3rdparty/openjpeg/openjp2/opj_config_private.h.cmake.in

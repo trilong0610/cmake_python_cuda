@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\saliency\src\BING\CmFile.cpp">
+      <Filter>Src\BING</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\saliency\src\BING\CmShow.cpp">
+      <Filter>Src\BING</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\saliency\src\BING\FilterTIG.cpp">
+      <Filter>Src\BING</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\saliency\src\BING\ValStructVec.cpp">
+      <Filter>Src\BING</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\saliency\src\BING\objectnessBING.cpp">
+      <Filter>Src\BING</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\saliency\src\motionSaliency.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\saliency\src\motionSaliencyBinWangApr2014.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\saliency\src\objectness.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\saliency\src\saliency.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\saliency\src\staticSaliency.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\saliency\src\staticSaliencyFineGrained.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\saliency\src\staticSaliencySpectralResidual.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\saliency\opencv_saliency_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\saliency\include\opencv2\saliency.hpp">
+      <Filter>Include\opencv2</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\saliency\include\opencv2\saliency\saliencyBaseClasses.hpp">
+      <Filter>Include\opencv2\saliency</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\saliency\include\opencv2\saliency\saliencySpecializedClasses.hpp">
+      <Filter>Include\opencv2\saliency</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\saliency\src\BING\CmFile.hpp">
+      <Filter>Src\BING</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\saliency\src\BING\CmShow.hpp">
+      <Filter>Src\BING</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\saliency\src\BING\CmTimer.hpp">
+      <Filter>Src\BING</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\saliency\src\BING\kyheader.hpp">
+      <Filter>Src\BING</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\saliency\src\precomp.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\build\cvconfig.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\build\opencv2\opencv_modules.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\saliency\vs_version.rc">
+      <Filter>Src</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{7B934226-BF50-3DE1-B937-8EA8471035E2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2">
+      <UniqueIdentifier>{6F4F6A9B-E0CD-3FE5-B12D-891088625776}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2\saliency">
+      <UniqueIdentifier>{9FB35CB2-C749-3A1D-9A3A-5B6450AE0665}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{724F6620-C0A2-3992-AF9D-62DBEF5A36C5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{6BDAB249-4DEF-3DAD-A179-38B43786DF6F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\BING">
+      <UniqueIdentifier>{AC8C2410-E806-36DB-9EC6-184AD6E9B42A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

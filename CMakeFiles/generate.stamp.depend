@@ -1,0 +1,106 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeFindJavaCommon.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeParseArguments.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeParseImplicitLinkInfo.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakePushCheckState.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CPack.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CPackComponent.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CheckSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CheckTypeSize.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Compiler/MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindBLAS.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindCUDA.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindCUDA/select_compute_arch.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindGit.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindJNI.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindLAPACK.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindOpenMP.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindPythonInterp.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Internal/CheckSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/TestBigEndian.cmake
+C:/Program Files/CMake/share/cmake-3.25/Templates/CPackConfig.cmake.in
+D:/Study/Python/Lib/opencv-4.5.0/3rdparty/ippicv/ippicv.cmake
+D:/Study/Python/Lib/opencv-4.5.0/CMakeLists.txt
+D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/3.25.3/CMakeCCompiler.cmake
+D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/3.25.3/CMakeCXXCompiler.cmake
+D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/3.25.3/CMakeRCCompiler.cmake
+D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/3.25.3/CMakeSystem.cmake
+D:/Study/Python/Lib/opencv-4.5.0/cmake/FindCUDNN.cmake
+D:/Study/Python/Lib/opencv-4.5.0/cmake/FindPylint.cmake
+D:/Study/Python/Lib/opencv-4.5.0/cmake/OpenCVCRTLinkage.cmake
+D:/Study/Python/Lib/opencv-4.5.0/cmake/OpenCVCompilerOptimizations.cmake
+D:/Study/Python/Lib/opencv-4.5.0/cmake/OpenCVCompilerOptions.cmake
+D:/Study/Python/Lib/opencv-4.5.0/cmake/OpenCVDetectApacheAnt.cmake
+D:/Study/Python/Lib/opencv-4.5.0/cmake/OpenCVDetectCUDA.cmake
+D:/Study/Python/Lib/opencv-4.5.0/cmake/OpenCVDetectCXXCompiler.cmake
+D:/Study/Python/Lib/opencv-4.5.0/cmake/OpenCVDetectDirectX.cmake
+D:/Study/Python/Lib/opencv-4.5.0/cmake/OpenCVDetectOpenCL.cmake
+D:/Study/Python/Lib/opencv-4.5.0/cmake/OpenCVDetectPython.cmake
+D:/Study/Python/Lib/opencv-4.5.0/cmake/OpenCVDetectTrace.cmake
+D:/Study/Python/Lib/opencv-4.5.0/cmake/OpenCVDetectVTK.cmake
+D:/Study/Python/Lib/opencv-4.5.0/cmake/OpenCVDownload.cmake
+D:/Study/Python/Lib/opencv-4.5.0/cmake/OpenCVExtraTargets.cmake
+D:/Study/Python/Lib/opencv-4.5.0/cmake/OpenCVFindFrameworks.cmake
+D:/Study/Python/Lib/opencv-4.5.0/cmake/OpenCVFindIPP.cmake
+D:/Study/Python/Lib/opencv-4.5.0/cmake/OpenCVFindIPPIW.cmake
+D:/Study/Python/Lib/opencv-4.5.0/cmake/OpenCVFindLAPACK.cmake
+D:/Study/Python/Lib/opencv-4.5.0/cmake/OpenCVFindLibsGUI.cmake
+D:/Study/Python/Lib/opencv-4.5.0/cmake/OpenCVFindLibsGrfmt.cmake
+D:/Study/Python/Lib/opencv-4.5.0/cmake/OpenCVFindLibsPerf.cmake
+D:/Study/Python/Lib/opencv-4.5.0/cmake/OpenCVFindLibsVideo.cmake
+D:/Study/Python/Lib/opencv-4.5.0/cmake/OpenCVFindMKL.cmake
+D:/Study/Python/Lib/opencv-4.5.0/cmake/OpenCVFindOpenBLAS.cmake
+D:/Study/Python/Lib/opencv-4.5.0/cmake/OpenCVFindProtobuf.cmake
+D:/Study/Python/Lib/opencv-4.5.0/cmake/OpenCVGenABI.cmake
+D:/Study/Python/Lib/opencv-4.5.0/cmake/OpenCVGenAndroidMK.cmake
+D:/Study/Python/Lib/opencv-4.5.0/cmake/OpenCVGenConfig.cmake
+D:/Study/Python/Lib/opencv-4.5.0/cmake/OpenCVGenHeaders.cmake
+D:/Study/Python/Lib/opencv-4.5.0/cmake/OpenCVGenSetupVars.cmake
+D:/Study/Python/Lib/opencv-4.5.0/cmake/OpenCVInstallLayout.cmake
+D:/Study/Python/Lib/opencv-4.5.0/cmake/OpenCVMinDepVersions.cmake
+D:/Study/Python/Lib/opencv-4.5.0/cmake/OpenCVModule.cmake
+D:/Study/Python/Lib/opencv-4.5.0/cmake/OpenCVPCHSupport.cmake
+D:/Study/Python/Lib/opencv-4.5.0/cmake/OpenCVPackaging.cmake
+D:/Study/Python/Lib/opencv-4.5.0/cmake/OpenCVPylint.cmake
+D:/Study/Python/Lib/opencv-4.5.0/cmake/OpenCVUtils.cmake
+D:/Study/Python/Lib/opencv-4.5.0/cmake/OpenCVVersion.cmake
+D:/Study/Python/Lib/opencv-4.5.0/cmake/checks/directx.cpp
+D:/Study/Python/Lib/opencv-4.5.0/cmake/checks/opencl.cpp
+D:/Study/Python/Lib/opencv-4.5.0/cmake/checks/win32uitest.cpp
+D:/Study/Python/Lib/opencv-4.5.0/cmake/platforms/OpenCV-Windows.cmake
+D:/Study/Python/Lib/opencv-4.5.0/cmake/templates/OpenCVConfig-version.cmake.in
+D:/Study/Python/Lib/opencv-4.5.0/cmake/templates/OpenCVConfig.cmake.in
+D:/Study/Python/Lib/opencv-4.5.0/cmake/templates/OpenCVConfig.root-WIN32.cmake.in
+D:/Study/Python/Lib/opencv-4.5.0/cmake/templates/cmake_uninstall.cmake.in
+D:/Study/Python/Lib/opencv-4.5.0/cmake/templates/custom_hal.hpp.in
+D:/Study/Python/Lib/opencv-4.5.0/cmake/templates/cv_cpu_config.h.in
+D:/Study/Python/Lib/opencv-4.5.0/cmake/templates/cvconfig.h.in
+D:/Study/Python/Lib/opencv-4.5.0/cmake/templates/opencv_modules.hpp.in
+D:/Study/Python/Lib/opencv-4.5.0/cmake/templates/pylint.cmake.in
+D:/Study/Python/Lib/opencv-4.5.0/cmake/templates/setup_vars_win32.cmd.in
+D:/Study/Python/Lib/opencv-4.5.0/modules/core/include/opencv2/core/version.hpp

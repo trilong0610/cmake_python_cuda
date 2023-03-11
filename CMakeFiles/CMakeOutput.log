@@ -1,0 +1,715 @@
+The system is: Windows - 10.0.18363 - AMD64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+MSBuild version 17.4.1+9a89d02ff for .NET Framework
+Build started 11/03/2023 1:32:41 PM.
+Project "D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\3.25.3\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\3.25.3\CompilerIdCXX\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\3.25.3\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.22
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/3.25.3/CompilerIdCXX/CompilerIdCXX.exe"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+MSBuild version 17.4.1+9a89d02ff for .NET Framework
+Build started 11/03/2023 1:32:44 PM.
+Project "D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\3.25.3\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\3.25.3\CompilerIdC\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\3.25.3\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.27
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/3.25.3/CompilerIdC/CompilerIdC.exe"
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-j71qbl
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c3dc7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  CMakeCXXCompilerABI.cpp
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c3dc7.dir\Debug\\" /Fd"cmTC_c3dc7.dir\Debug\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_c3dc7.vcxproj -> D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-j71qbl\Debug\cmTC_c3dc7.exe
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-5y4zzw
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a2fc6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  CMakeCCompilerABI.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a2fc6.dir\Debug\\" /Fd"cmTC_a2fc6.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCCompilerABI.c"
+  cmTC_a2fc6.vcxproj -> D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-5y4zzw\Debug\cmTC_a2fc6.exe
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-9bj7g7
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_10f9d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_10f9d.dir\Debug\\" /Fd"cmTC_10f9d.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-9bj7g7\CheckIncludeFile.c"
+  cmTC_10f9d.vcxproj -> D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-9bj7g7\Debug\cmTC_10f9d.exe
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-9bpflm
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_555a5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_555a5.dir\Debug\\" /Fd"cmTC_555a5.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-9bpflm\CheckIncludeFile.c"
+  cmTC_555a5.vcxproj -> D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-9bpflm\Debug\cmTC_555a5.exe
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-wrwma2
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_71b1f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_71b1f.dir\Debug\\" /Fd"cmTC_71b1f.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-wrwma2\CheckIncludeFile.c"
+  cmTC_71b1f.vcxproj -> D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-wrwma2\Debug\cmTC_71b1f.exe
+
+
+
+Determining size of size_t passed with the following output:
+Change Dir: D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-0xe29p
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_04d81.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  SIZEOF_SIZE_T.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_04d81.dir\Debug\\" /Fd"cmTC_04d81.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-0xe29p\SIZEOF_SIZE_T.c"
+  cmTC_04d81.vcxproj -> D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-0xe29p\Debug\cmTC_04d81.exe
+
+
+
+Determining size of unsigned long passed with the following output:
+Change Dir: D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-lhi8ep
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_fd4d6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  SIZEOF_UNSIGNED_LONG.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fd4d6.dir\Debug\\" /Fd"cmTC_fd4d6.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-lhi8ep\SIZEOF_UNSIGNED_LONG.c"
+  cmTC_fd4d6.vcxproj -> D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-lhi8ep\Debug\cmTC_fd4d6.exe
+
+
+
+Determining if files intrin.h exist passed with the following output:
+Change Dir: D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-plzu25
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_77ff0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  HAVE_INTRIN_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_77ff0.dir\Debug\\" /Fd"cmTC_77ff0.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-plzu25\HAVE_INTRIN_H.c"
+  cmTC_77ff0.vcxproj -> D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-plzu25\Debug\cmTC_77ff0.exe
+
+
+
+Determining if the include file assert.h exists passed with the following output:
+Change Dir: D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-asnpk7
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_7e35a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7e35a.dir\Debug\\" /Fd"cmTC_7e35a.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-asnpk7\CheckIncludeFile.c"
+  cmTC_7e35a.vcxproj -> D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-asnpk7\Debug\cmTC_7e35a.exe
+
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-ua5sns
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_fb4c1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fb4c1.dir\Debug\\" /Fd"cmTC_fb4c1.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-ua5sns\CheckIncludeFile.c"
+  cmTC_fb4c1.vcxproj -> D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-ua5sns\Debug\cmTC_fb4c1.exe
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-ayn0ct
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_22868.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_22868.dir\Debug\\" /Fd"cmTC_22868.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-ayn0ct\CheckIncludeFile.c"
+  cmTC_22868.vcxproj -> D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-ayn0ct\Debug\cmTC_22868.exe
+
+
+
+Determining if the include file io.h exists passed with the following output:
+Change Dir: D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-fht52l
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_5e47b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5e47b.dir\Debug\\" /Fd"cmTC_5e47b.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-fht52l\CheckIncludeFile.c"
+  cmTC_5e47b.vcxproj -> D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-fht52l\Debug\cmTC_5e47b.exe
+
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-evsc88
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ca8e8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ca8e8.dir\Debug\\" /Fd"cmTC_ca8e8.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-evsc88\CheckIncludeFile.c"
+  cmTC_ca8e8.vcxproj -> D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-evsc88\Debug\cmTC_ca8e8.exe
+
+
+
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-43i2fp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_197cd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_197cd.dir\Debug\\" /Fd"cmTC_197cd.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-43i2fp\CheckIncludeFile.c"
+  cmTC_197cd.vcxproj -> D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-43i2fp\Debug\cmTC_197cd.exe
+
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-kki4e8
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_fc21d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fc21d.dir\Debug\\" /Fd"cmTC_fc21d.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-kki4e8\CheckIncludeFile.c"
+  cmTC_fc21d.vcxproj -> D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-kki4e8\Debug\cmTC_fc21d.exe
+
+
+
+Determining if the include file search.h exists passed with the following output:
+Change Dir: D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-q4hp5r
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ac63d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ac63d.dir\Debug\\" /Fd"cmTC_ac63d.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-q4hp5r\CheckIncludeFile.c"
+  cmTC_ac63d.vcxproj -> D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-q4hp5r\Debug\cmTC_ac63d.exe
+
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-yrncf9
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f3bad.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f3bad.dir\Debug\\" /Fd"cmTC_f3bad.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-yrncf9\CheckIncludeFile.c"
+  cmTC_f3bad.vcxproj -> D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-yrncf9\Debug\cmTC_f3bad.exe
+
+
+
+Performing C SOURCE FILE Test C_HAS_inline succeeded with the following output:
+Change Dir: D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-6f3f14
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_cee4e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  src.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D C_HAS_inline /D inline=inline /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cee4e.dir\Debug\\" /Fd"cmTC_cee4e.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-6f3f14\src.c"
+  cmTC_cee4e.vcxproj -> D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-6f3f14\Debug\cmTC_cee4e.exe
+
+
+Source file was:
+
+        typedef int foo_t;
+        static inline foo_t static_foo() {return 0;}
+        foo_t foo(){return 0;}
+        int main(int argc, char *argv[]) {return 0;}
+
+Determining size of signed short passed with the following output:
+Change Dir: D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-zh14fl
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_48244.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  SIZEOF_SIGNED_SHORT.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_48244.dir\Debug\\" /Fd"cmTC_48244.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-zh14fl\SIZEOF_SIGNED_SHORT.c"
+  cmTC_48244.vcxproj -> D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-zh14fl\Debug\cmTC_48244.exe
+
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-gkc71t
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_47e72.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  SIZEOF_UNSIGNED_SHORT.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_47e72.dir\Debug\\" /Fd"cmTC_47e72.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-gkc71t\SIZEOF_UNSIGNED_SHORT.c"
+  cmTC_47e72.vcxproj -> D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-gkc71t\Debug\cmTC_47e72.exe
+
+
+
+Determining size of signed int passed with the following output:
+Change Dir: D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-uiqkjk
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_6daf7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  SIZEOF_SIGNED_INT.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6daf7.dir\Debug\\" /Fd"cmTC_6daf7.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-uiqkjk\SIZEOF_SIGNED_INT.c"
+  cmTC_6daf7.vcxproj -> D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-uiqkjk\Debug\cmTC_6daf7.exe
+
+
+
+Determining size of unsigned int passed with the following output:
+Change Dir: D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-316suy
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_bce10.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  SIZEOF_UNSIGNED_INT.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bce10.dir\Debug\\" /Fd"cmTC_bce10.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-316suy\SIZEOF_UNSIGNED_INT.c"
+  cmTC_bce10.vcxproj -> D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-316suy\Debug\cmTC_bce10.exe
+
+
+
+Determining size of signed long passed with the following output:
+Change Dir: D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-4xicoz
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_fae93.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  SIZEOF_SIGNED_LONG.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fae93.dir\Debug\\" /Fd"cmTC_fae93.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-4xicoz\SIZEOF_SIGNED_LONG.c"
+  cmTC_fae93.vcxproj -> D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-4xicoz\Debug\cmTC_fae93.exe
+
+
+
+Determining size of signed long long passed with the following output:
+Change Dir: D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-vsatbj
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e72a1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  SIZEOF_SIGNED_LONG_LONG.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e72a1.dir\Debug\\" /Fd"cmTC_e72a1.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-vsatbj\SIZEOF_SIGNED_LONG_LONG.c"
+  cmTC_e72a1.vcxproj -> D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-vsatbj\Debug\cmTC_e72a1.exe
+
+
+
+Determining size of unsigned long long passed with the following output:
+Change Dir: D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-ckgwpz
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_1a267.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  SIZEOF_UNSIGNED_LONG_LONG.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1a267.dir\Debug\\" /Fd"cmTC_1a267.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-ckgwpz\SIZEOF_UNSIGNED_LONG_LONG.c"
+  cmTC_1a267.vcxproj -> D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-ckgwpz\Debug\cmTC_1a267.exe
+
+
+
+Determining size of unsigned char * passed with the following output:
+Change Dir: D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-kuo5c3
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_6e0ea.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  SIZEOF_UNSIGNED_CHAR_P.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6e0ea.dir\Debug\\" /Fd"cmTC_6e0ea.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-kuo5c3\SIZEOF_UNSIGNED_CHAR_P.c"
+  cmTC_6e0ea.vcxproj -> D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-kuo5c3\Debug\cmTC_6e0ea.exe
+
+
+
+Determining size of ptrdiff_t passed with the following output:
+Change Dir: D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-moki3b
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_4ad8a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  SIZEOF_PTRDIFF_T.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4ad8a.dir\Debug\\" /Fd"cmTC_4ad8a.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-moki3b\SIZEOF_PTRDIFF_T.c"
+  cmTC_4ad8a.vcxproj -> D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-moki3b\Debug\cmTC_4ad8a.exe
+
+
+
+Determining if the function setmode exists passed with the following output:
+Change Dir: D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-8wxl5h
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_3bbf7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D CHECK_FUNCTION_EXISTS=setmode /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3bbf7.dir\Debug\\" /Fd"cmTC_3bbf7.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-8wxl5h\CheckFunctionExists.c"
+  cmTC_3bbf7.vcxproj -> D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-8wxl5h\Debug\cmTC_3bbf7.exe
+
+
+
+Determining if the function strchr exists passed with the following output:
+Change Dir: D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-3e3dnr
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_1bd87.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D CHECK_FUNCTION_EXISTS=strchr /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1bd87.dir\Debug\\" /Fd"cmTC_1bd87.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-3e3dnr\CheckFunctionExists.c"
+  cmTC_1bd87.vcxproj -> D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-3e3dnr\Debug\cmTC_1bd87.exe
+
+
+
+Determining if the function strrchr exists passed with the following output:
+Change Dir: D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-nqxrgm
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_087ed.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D CHECK_FUNCTION_EXISTS=strrchr /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_087ed.dir\Debug\\" /Fd"cmTC_087ed.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-nqxrgm\CheckFunctionExists.c"
+  cmTC_087ed.vcxproj -> D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-nqxrgm\Debug\cmTC_087ed.exe
+
+
+
+Determining if the function strstr exists passed with the following output:
+Change Dir: D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-xnzao5
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_5df22.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D CHECK_FUNCTION_EXISTS=strstr /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5df22.dir\Debug\\" /Fd"cmTC_5df22.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-xnzao5\CheckFunctionExists.c"
+  cmTC_5df22.vcxproj -> D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-xnzao5\Debug\cmTC_5df22.exe
+
+
+
+Determining if the function strtol exists passed with the following output:
+Change Dir: D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-y6ciqj
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_cca0a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D CHECK_FUNCTION_EXISTS=strtol /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cca0a.dir\Debug\\" /Fd"cmTC_cca0a.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-y6ciqj\CheckFunctionExists.c"
+  cmTC_cca0a.vcxproj -> D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-y6ciqj\Debug\cmTC_cca0a.exe
+
+
+
+Determining if the function strtol exists passed with the following output:
+Change Dir: D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-w6aco1
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_8b2de.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D CHECK_FUNCTION_EXISTS=strtol /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8b2de.dir\Debug\\" /Fd"cmTC_8b2de.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-w6aco1\CheckFunctionExists.c"
+  cmTC_8b2de.vcxproj -> D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-w6aco1\Debug\cmTC_8b2de.exe
+
+
+
+Determining if the function strtoull exists passed with the following output:
+Change Dir: D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-lfimot
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_abd72.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D CHECK_FUNCTION_EXISTS=strtoull /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_abd72.dir\Debug\\" /Fd"cmTC_abd72.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-lfimot\CheckFunctionExists.c"
+  cmTC_abd72.vcxproj -> D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-lfimot\Debug\cmTC_abd72.exe
+
+
+
+Determining if the function lfind exists passed with the following output:
+Change Dir: D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-xsyyqw
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_84cb7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D CHECK_FUNCTION_EXISTS=lfind /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_84cb7.dir\Debug\\" /Fd"cmTC_84cb7.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-xsyyqw\CheckFunctionExists.c"
+  cmTC_84cb7.vcxproj -> D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-xsyyqw\Debug\cmTC_84cb7.exe
+
+
+
+Performing C SOURCE FILE Test HAVE_SNPRINTF succeeded with the following output:
+Change Dir: D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-7haslz
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f25e6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  src.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D HAVE_SNPRINTF /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f25e6.dir\Debug\\" /Fd"cmTC_f25e6.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-7haslz\src.c"
+  cmTC_f25e6.vcxproj -> D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-7haslz\Debug\cmTC_f25e6.exe
+
+
+Source file was:
+
+#include <stdio.h>
+int main(void) {
+  char buf[10];
+  snprintf(buf, 10, "Test %d", 1);
+  return 0;
+}
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-o272p2
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_b0afd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b0afd.dir\Debug\\" /Fd"cmTC_b0afd.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-o272p2\CheckIncludeFile.c"
+  cmTC_b0afd.vcxproj -> D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-o272p2\Debug\cmTC_b0afd.exe
+
+
+
+Determining if the include file stdio.h exists passed with the following output:
+Change Dir: D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-f7e2o4
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_72759.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_72759.dir\Debug\\" /Fd"cmTC_72759.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-f7e2o4\CheckIncludeFile.c"
+  cmTC_72759.vcxproj -> D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-f7e2o4\Debug\cmTC_72759.exe
+
+
+
+Determining if the include file math.h exists passed with the following output:
+Change Dir: D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-ken6wq
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a1fb0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a1fb0.dir\Debug\\" /Fd"cmTC_a1fb0.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-ken6wq\CheckIncludeFile.c"
+  cmTC_a1fb0.vcxproj -> D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-ken6wq\Debug\cmTC_a1fb0.exe
+
+
+
+Determining if the include file float.h exists passed with the following output:
+Change Dir: D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-or10rm
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ef268.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ef268.dir\Debug\\" /Fd"cmTC_ef268.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-or10rm\CheckIncludeFile.c"
+  cmTC_ef268.vcxproj -> D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-or10rm\Debug\cmTC_ef268.exe
+
+
+
+Determining if the include file time.h exists passed with the following output:
+Change Dir: D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-zvx9r4
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_4afaf.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4afaf.dir\Debug\\" /Fd"cmTC_4afaf.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-zvx9r4\CheckIncludeFile.c"
+  cmTC_4afaf.vcxproj -> D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-zvx9r4\Debug\cmTC_4afaf.exe
+
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-ykbth1
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_5fa7f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5fa7f.dir\Debug\\" /Fd"cmTC_5fa7f.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-ykbth1\CheckIncludeFile.c"
+  cmTC_5fa7f.vcxproj -> D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-ykbth1\Debug\cmTC_5fa7f.exe
+
+
+
+Determining if the include file ctype.h exists passed with the following output:
+Change Dir: D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-my8qha
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_37caf.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_37caf.dir\Debug\\" /Fd"cmTC_37caf.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-my8qha\CheckIncludeFile.c"
+  cmTC_37caf.vcxproj -> D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-my8qha\Debug\cmTC_37caf.exe
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-p5tj77
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a8d0f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a8d0f.dir\Debug\\" /Fd"cmTC_a8d0f.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-p5tj77\CheckIncludeFile.c"
+  cmTC_a8d0f.vcxproj -> D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-p5tj77\Debug\cmTC_a8d0f.exe
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-25pzvp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_65098.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_65098.dir\Debug\\" /Fd"cmTC_65098.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-25pzvp\CheckIncludeFile.c"
+  cmTC_65098.vcxproj -> D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-25pzvp\Debug\cmTC_65098.exe
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-vmx7no
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f7a7a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f7a7a.dir\Debug\\" /Fd"cmTC_f7a7a.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-vmx7no\CheckIncludeFile.c"
+  cmTC_f7a7a.vcxproj -> D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-vmx7no\Debug\cmTC_f7a7a.exe
+
+
+
+Determining if files malloc.h exist passed with the following output:
+Change Dir: D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-2yl2hp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_39236.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  OPJ_HAVE_MALLOC_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_39236.dir\Debug\\" /Fd"cmTC_39236.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-2yl2hp\OPJ_HAVE_MALLOC_H.c"
+  cmTC_39236.vcxproj -> D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-2yl2hp\Debug\cmTC_39236.exe
+
+
+
+Determining if the _aligned_malloc exist passed with the following output:
+Change Dir: D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-l44frz
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_56fa0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  CheckSymbolExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_56fa0.dir\Debug\\" /Fd"cmTC_56fa0.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-l44frz\CheckSymbolExists.c"
+  cmTC_56fa0.vcxproj -> D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-l44frz\Debug\cmTC_56fa0.exe
+
+
+File CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _aligned_malloc
+  return ((int*)(&_aligned_malloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file mfapi.h exists passed with the following output:
+Change Dir: D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-vpr1j8
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_3a90f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3a90f.dir\Debug\\" /Fd"cmTC_3a90f.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-vpr1j8\CheckIncludeFile.c"
+  cmTC_3a90f.vcxproj -> D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-vpr1j8\Debug\cmTC_3a90f.exe
+
+
+
+Determining if the include file d3d11_4.h exists passed with the following output:
+Change Dir: D:/Study/Python/Lib/opencv-4.5.0/build/CMakeFiles/CMakeScratch/TryCompile-1ihyi7
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_423bb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_423bb.dir\Debug\\" /Fd"cmTC_423bb.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj "D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-1ihyi7\CheckIncludeFile.c"
+  cmTC_423bb.vcxproj -> D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\CMakeScratch\TryCompile-1ihyi7\Debug\cmTC_423bb.exe
+
+
+

@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\stereo\src\descriptor.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\stereo\src\quasi_dense_stereo.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\stereo\src\stereo_binary_bm.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\stereo\src\stereo_binary_sgbm.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\stereo\opencv_stereo_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\stereo\include\opencv2\stereo.hpp">
+      <Filter>Include\opencv2</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\stereo\include\opencv2\stereo\descriptor.hpp">
+      <Filter>Include\opencv2\stereo</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\stereo\include\opencv2\stereo\quasi_dense_stereo.hpp">
+      <Filter>Include\opencv2\stereo</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\stereo\include\opencv2\stereo\stereo.hpp">
+      <Filter>Include\opencv2\stereo</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\stereo\src\descriptor.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\stereo\src\matching.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\stereo\src\precomp.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\build\cvconfig.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\build\opencv2\opencv_modules.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\stereo\vs_version.rc">
+      <Filter>Src</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{7B934226-BF50-3DE1-B937-8EA8471035E2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2">
+      <UniqueIdentifier>{6F4F6A9B-E0CD-3FE5-B12D-891088625776}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2\stereo">
+      <UniqueIdentifier>{C23A82EA-4B7C-3C64-BC58-CE527A7305AF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{724F6620-C0A2-3992-AF9D-62DBEF5A36C5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{6BDAB249-4DEF-3DAD-A179-38B43786DF6F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

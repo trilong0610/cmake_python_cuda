@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaimgproc\src\bilateral_filter.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaimgproc\src\blend.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaimgproc\src\canny.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaimgproc\src\color.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaimgproc\src\corners.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaimgproc\src\generalized_hough.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaimgproc\src\gftt.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaimgproc\src\histogram.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaimgproc\src\hough_circles.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaimgproc\src\hough_lines.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaimgproc\src\hough_segments.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaimgproc\src\match_template.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaimgproc\src\mean_shift.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaimgproc\src\mssegmentation.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaimgproc\opencv_cudaimgproc_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaimgproc\include\opencv2\cudaimgproc.hpp">
+      <Filter>Include\opencv2</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaimgproc\src\cvt_color_internal.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaimgproc\src\precomp.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\build\cvconfig.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\build\opencv2\opencv_modules.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaimgproc\src\cuda\bilateral_filter.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaimgproc\src\cuda\blend.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaimgproc\src\cuda\build_point_list.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaimgproc\src\cuda\canny.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaimgproc\src\cuda\clahe.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaimgproc\src\cuda\color.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaimgproc\src\cuda\corners.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaimgproc\src\cuda\debayer.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaimgproc\src\cuda\generalized_hough.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaimgproc\src\cuda\gftt.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaimgproc\src\cuda\hist.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaimgproc\src\cuda\hough_circles.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaimgproc\src\cuda\hough_lines.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaimgproc\src\cuda\hough_segments.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaimgproc\src\cuda\match_template.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaimgproc\src\cuda\mean_shift.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaimgproc\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_bilateral_filter.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaimgproc\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_blend.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaimgproc\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_build_point_list.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaimgproc\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_canny.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaimgproc\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_clahe.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaimgproc\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_color.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaimgproc\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_corners.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaimgproc\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_debayer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaimgproc\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_generalized_hough.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaimgproc\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_gftt.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaimgproc\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_hist.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaimgproc\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_hough_circles.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaimgproc\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_hough_lines.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaimgproc\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_hough_segments.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaimgproc\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_match_template.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaimgproc\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_mean_shift.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaimgproc\vs_version.rc">
+      <Filter>Src</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{7B934226-BF50-3DE1-B937-8EA8471035E2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2">
+      <UniqueIdentifier>{6F4F6A9B-E0CD-3FE5-B12D-891088625776}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Files">
+      <UniqueIdentifier>{7B86EA94-EDAF-3F25-925E-4E600E1C0DED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{724F6620-C0A2-3992-AF9D-62DBEF5A36C5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{6BDAB249-4DEF-3DAD-A179-38B43786DF6F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Cuda">
+      <UniqueIdentifier>{CFDB773B-21CA-3C62-9DD9-8C25DE9815B3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

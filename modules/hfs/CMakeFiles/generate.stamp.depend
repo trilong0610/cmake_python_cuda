@@ -1,0 +1,9 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindCUDA/run_nvcc.cmake
+D:/Study/Python/Lib/opencv-4.5.0/build/modules/hfs/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_gslic_seg_engine_gpu.cu.obj.cmake.pre-gen
+D:/Study/Python/Lib/opencv-4.5.0/build/modules/hfs/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_gslic_seg_engine_gpu.cu.obj.depend
+D:/Study/Python/Lib/opencv-4.5.0/build/modules/hfs/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_magnitude.cu.obj.cmake.pre-gen
+D:/Study/Python/Lib/opencv-4.5.0/build/modules/hfs/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_magnitude.cu.obj.depend
+D:/Study/Python/Lib/opencv-4.5.0/cmake/templates/dllmain.cpp.in
+D:/Study/Python/Lib/opencv-4.5.0/cmake/templates/vs_version.rc.in
+D:/Study/Python/Lib/opencv_contrib-4.5.0/modules/hfs/CMakeLists.txt

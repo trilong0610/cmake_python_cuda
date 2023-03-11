@@ -1,0 +1,502 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{09F8F300-94D7-3343-8A58-3589F0B55782}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>check_pylint</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Study\Python\Lib\opencv-4.5.0\build\3rdparty\ippicv\ippicv_win\icv\include;D:\Study\Python\Lib\opencv-4.5.0\build\3rdparty\ippicv\ippicv_win\iw\include;D:\Study\Python\Lib\opencv-4.5.0\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Study\Python\Lib\opencv-4.5.0\build\3rdparty\ippicv\ippicv_win\icv\include;D:\Study\Python\Lib\opencv-4.5.0\build\3rdparty\ippicv\ippicv_win\iw\include;D:\Study\Python\Lib\opencv-4.5.0\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\bb31dbbeb1780dd74d9597d27f667c92\pylintrc.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating pylintrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Study/Python/Lib/opencv-4.5.0/platforms/scripts/pylintrc D:/Study/Python/Lib/opencv-4.5.0/build/pylintrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\platforms\scripts\pylintrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\pylintrc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating pylintrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Study/Python/Lib/opencv-4.5.0/platforms/scripts/pylintrc D:/Study/Python/Lib/opencv-4.5.0/build/pylintrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\platforms\scripts\pylintrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\pylintrc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\29618bb7c92765a20254c3ca871e1dcd\check_pylint.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Running pylint</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P D:/Study/Python/Lib/opencv-4.5.0/build/pylint.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test.py;D:\Study\Python\Lib\opencv-4.5.0\build\pylintrc;D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_algorithm_rw.py;D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_async.py;D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_camshift.py;D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_copytomask.py;D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_cuda.py;D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_dft.py;D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_features2d.py;D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_filestorage_io.py;D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_fitline.py;D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_gaussian_mix.py;D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_grabcut.py;D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_houghcircles.py;D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_houghlines.py;D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_kmeans.py;D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_legacy.py;D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_misc.py;D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_morphology.py;D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_mser.py;D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_norm.py;D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_persistence.py;D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_squares.py;D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_texture_flow.py;D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_umat.py;D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_watershed.py;D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\tests_common.py;D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\tst_scene_render.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\_coverage.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\_doc.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\asift.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\browse.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\calibrate.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\camera_calibration_show_extrinsics.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\camshift.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\coherence.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\color_histogram.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\common.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\contours.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\deconvolution.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\demo.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\dft.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\digits.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\digits_adjust.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\digits_video.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\dis_opt_flow.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\distrans.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\drawing.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\edge.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\essential_mat_reconstr.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\facedetect.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\feature_homography.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\find_obj.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\fitline.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\floodfill.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\gabor_threads.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\gaussian_mix.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\grabcut.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\hist.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\houghcircles.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\houghlines.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\inpaint.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\kalman.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\kmeans.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\laplace.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\lappyr.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\letter_recog.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\lk_homography.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\lk_track.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\logpolar.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\morphology.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\mosse.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\mouse_and_match.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\mser.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\opencv_version.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\opt_flow.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\peopledetect.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\plane_ar.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\plane_tracker.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\qrcode.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\squares.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\stereo_match.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\stitching.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\stitching_detailed.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\text_skewness_correction.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\texture_flow.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tst_scene_render.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\turing.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\video.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\video_threaded.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\video_v4l2.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\watershed.py;D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\action_recognition.py;D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\classification.py;D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\colorization.py;D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\common.py;D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\dasiamrpn_tracker.py;D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\edge_detection.py;D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\fast_neural_style.py;D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\human_parsing.py;D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\mask_rcnn.py;D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\mobilenet_ssd_accuracy.py;D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\object_detection.py;D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\openpose.py;D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\optical_flow.py;D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\segmentation.py;D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\shrink_tf_graph_weights.py;D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\siamrpnpp.py;D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\text_detection.py;D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\tf_text_graph_common.py;D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\tf_text_graph_efficientdet.py;D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\tf_text_graph_faster_rcnn.py;D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\tf_text_graph_mask_rcnn.py;D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\tf_text_graph_ssd.py;D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\virtual_try_on.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\Histograms_Matching\back_projection\calcBackProject_Demo1.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\Histograms_Matching\back_projection\calcBackProject_Demo2.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\Histograms_Matching\histogram_calculation\calcHist_Demo.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\Histograms_Matching\histogram_comparison\compareHist_Demo.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\Histograms_Matching\histogram_equalization\EqualizeHist_Demo.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ImgTrans\Filter2D\filter2D.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ImgTrans\HoughCircle\hough_circle.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ImgTrans\HoughLine\hough_lines.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ImgTrans\LaPlace\laplace_demo.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ImgTrans\MakeBorder\copy_make_border.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ImgTrans\SobelDemo\sobel_demo.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ImgTrans\canny_detector\CannyDetector_Demo.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ImgTrans\distance_transformation\imageSegmentation.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ImgTrans\remap\Remap_Demo.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ImgTrans\warp_affine\Geometric_Transforms_Demo.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ShapeDescriptors\bounding_rects_circles\generalContours_demo1.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ShapeDescriptors\bounding_rotated_ellipses\generalContours_demo2.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ShapeDescriptors\find_contours\findContours_demo.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ShapeDescriptors\hull\hull_demo.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ShapeDescriptors\moments\moments_demo.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ShapeDescriptors\point_polygon_test\pointPolygonTest_demo.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\TrackingMotion\corner_subpixels\cornerSubPix_Demo.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\TrackingMotion\generic_corner_detector\cornerDetector_Demo.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\TrackingMotion\good_features_to_track\goodFeaturesToTrack_Demo.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\TrackingMotion\harris_detector\cornerHarris_Demo.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\core\AddingImages\adding_images.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\core\discrete_fourier_transform\discrete_fourier_transform.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\core\file_input_output\file_input_output.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\core\mat_mask_operations\mat_mask_operations.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\core\mat_operations\mat_operations.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\features2D\Homography\panorama_stitching_rotating_camera.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\features2D\Homography\perspective_correction.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\features2D\akaze_matching\AKAZE_match.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\features2D\feature_description\SURF_matching_Demo.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\features2D\feature_detection\SURF_detection_Demo.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\features2D\feature_flann_matcher\SURF_FLANN_matching_Demo.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\features2D\feature_homography\SURF_FLANN_matching_homography_Demo.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\highgui\trackbar\AddingImagesTrackbar.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\imgProc\BasicGeometricDrawing\basic_geometric_drawing.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\imgProc\HitMiss\hit_miss.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\imgProc\Pyramids\pyramids.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\imgProc\Smoothing\smoothing.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\imgProc\anisotropic_image_segmentation\anisotropic_image_segmentation.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\imgProc\changing_contrast_brightness_image\BasicLinearTransforms.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\imgProc\changing_contrast_brightness_image\changing_contrast_brightness_image.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\imgProc\erosion_dilatation\morphology_1.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\imgProc\hough_line_transform\hough_line_transform.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\imgProc\hough_line_transform\probabilistic_hough_line_transform.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\imgProc\match_template\match_template.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\imgProc\morph_lines_detection\morph_lines_detection.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\imgProc\opening_closing_hats\morphology_2.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\imgProc\threshold\threshold.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\imgProc\threshold_inRange\threshold_inRange.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\introduction\display_image\display_image.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\introduction\documentation\documentation.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ml\introduction_to_pca\introduction_to_pca.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ml\introduction_to_svm\introduction_to_svm.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ml\non_linear_svms\non_linear_svms.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ml\py_svm_opencv\hogsvm.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\objectDetection\cascade_classifier\objectDetection.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\photo\hdr_imaging\hdr_imaging.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\video\background_subtraction\bg_sub.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\video\meanshift\camshift.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\video\meanshift\meanshift.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\video\optical_flow\optical_flow.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\video\optical_flow\optical_flow_dense.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\videoio\video-input-psnr-ssim.py;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\check_pylint</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Running pylint</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P D:/Study/Python/Lib/opencv-4.5.0/build/pylint.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test.py;D:\Study\Python\Lib\opencv-4.5.0\build\pylintrc;D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_algorithm_rw.py;D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_async.py;D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_camshift.py;D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_copytomask.py;D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_cuda.py;D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_dft.py;D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_features2d.py;D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_filestorage_io.py;D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_fitline.py;D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_gaussian_mix.py;D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_grabcut.py;D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_houghcircles.py;D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_houghlines.py;D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_kmeans.py;D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_legacy.py;D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_misc.py;D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_morphology.py;D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_mser.py;D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_norm.py;D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_persistence.py;D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_squares.py;D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_texture_flow.py;D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_umat.py;D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_watershed.py;D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\tests_common.py;D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\tst_scene_render.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\_coverage.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\_doc.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\asift.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\browse.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\calibrate.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\camera_calibration_show_extrinsics.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\camshift.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\coherence.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\color_histogram.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\common.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\contours.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\deconvolution.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\demo.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\dft.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\digits.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\digits_adjust.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\digits_video.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\dis_opt_flow.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\distrans.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\drawing.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\edge.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\essential_mat_reconstr.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\facedetect.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\feature_homography.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\find_obj.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\fitline.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\floodfill.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\gabor_threads.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\gaussian_mix.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\grabcut.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\hist.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\houghcircles.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\houghlines.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\inpaint.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\kalman.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\kmeans.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\laplace.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\lappyr.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\letter_recog.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\lk_homography.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\lk_track.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\logpolar.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\morphology.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\mosse.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\mouse_and_match.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\mser.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\opencv_version.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\opt_flow.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\peopledetect.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\plane_ar.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\plane_tracker.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\qrcode.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\squares.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\stereo_match.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\stitching.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\stitching_detailed.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\text_skewness_correction.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\texture_flow.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tst_scene_render.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\turing.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\video.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\video_threaded.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\video_v4l2.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\watershed.py;D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\action_recognition.py;D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\classification.py;D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\colorization.py;D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\common.py;D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\dasiamrpn_tracker.py;D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\edge_detection.py;D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\fast_neural_style.py;D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\human_parsing.py;D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\mask_rcnn.py;D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\mobilenet_ssd_accuracy.py;D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\object_detection.py;D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\openpose.py;D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\optical_flow.py;D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\segmentation.py;D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\shrink_tf_graph_weights.py;D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\siamrpnpp.py;D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\text_detection.py;D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\tf_text_graph_common.py;D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\tf_text_graph_efficientdet.py;D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\tf_text_graph_faster_rcnn.py;D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\tf_text_graph_mask_rcnn.py;D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\tf_text_graph_ssd.py;D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\virtual_try_on.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\Histograms_Matching\back_projection\calcBackProject_Demo1.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\Histograms_Matching\back_projection\calcBackProject_Demo2.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\Histograms_Matching\histogram_calculation\calcHist_Demo.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\Histograms_Matching\histogram_comparison\compareHist_Demo.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\Histograms_Matching\histogram_equalization\EqualizeHist_Demo.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ImgTrans\Filter2D\filter2D.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ImgTrans\HoughCircle\hough_circle.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ImgTrans\HoughLine\hough_lines.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ImgTrans\LaPlace\laplace_demo.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ImgTrans\MakeBorder\copy_make_border.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ImgTrans\SobelDemo\sobel_demo.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ImgTrans\canny_detector\CannyDetector_Demo.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ImgTrans\distance_transformation\imageSegmentation.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ImgTrans\remap\Remap_Demo.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ImgTrans\warp_affine\Geometric_Transforms_Demo.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ShapeDescriptors\bounding_rects_circles\generalContours_demo1.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ShapeDescriptors\bounding_rotated_ellipses\generalContours_demo2.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ShapeDescriptors\find_contours\findContours_demo.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ShapeDescriptors\hull\hull_demo.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ShapeDescriptors\moments\moments_demo.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ShapeDescriptors\point_polygon_test\pointPolygonTest_demo.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\TrackingMotion\corner_subpixels\cornerSubPix_Demo.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\TrackingMotion\generic_corner_detector\cornerDetector_Demo.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\TrackingMotion\good_features_to_track\goodFeaturesToTrack_Demo.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\TrackingMotion\harris_detector\cornerHarris_Demo.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\core\AddingImages\adding_images.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\core\discrete_fourier_transform\discrete_fourier_transform.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\core\file_input_output\file_input_output.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\core\mat_mask_operations\mat_mask_operations.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\core\mat_operations\mat_operations.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\features2D\Homography\panorama_stitching_rotating_camera.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\features2D\Homography\perspective_correction.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\features2D\akaze_matching\AKAZE_match.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\features2D\feature_description\SURF_matching_Demo.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\features2D\feature_detection\SURF_detection_Demo.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\features2D\feature_flann_matcher\SURF_FLANN_matching_Demo.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\features2D\feature_homography\SURF_FLANN_matching_homography_Demo.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\highgui\trackbar\AddingImagesTrackbar.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\imgProc\BasicGeometricDrawing\basic_geometric_drawing.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\imgProc\HitMiss\hit_miss.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\imgProc\Pyramids\pyramids.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\imgProc\Smoothing\smoothing.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\imgProc\anisotropic_image_segmentation\anisotropic_image_segmentation.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\imgProc\changing_contrast_brightness_image\BasicLinearTransforms.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\imgProc\changing_contrast_brightness_image\changing_contrast_brightness_image.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\imgProc\erosion_dilatation\morphology_1.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\imgProc\hough_line_transform\hough_line_transform.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\imgProc\hough_line_transform\probabilistic_hough_line_transform.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\imgProc\match_template\match_template.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\imgProc\morph_lines_detection\morph_lines_detection.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\imgProc\opening_closing_hats\morphology_2.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\imgProc\threshold\threshold.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\imgProc\threshold_inRange\threshold_inRange.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\introduction\display_image\display_image.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\introduction\documentation\documentation.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ml\introduction_to_pca\introduction_to_pca.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ml\introduction_to_svm\introduction_to_svm.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ml\non_linear_svms\non_linear_svms.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ml\py_svm_opencv\hogsvm.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\objectDetection\cascade_classifier\objectDetection.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\photo\hdr_imaging\hdr_imaging.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\video\background_subtraction\bg_sub.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\video\meanshift\camshift.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\video\meanshift\meanshift.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\video\optical_flow\optical_flow.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\video\optical_flow\optical_flow_dense.py;D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\videoio\video-input-psnr-ssim.py;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\check_pylint</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\build\pylintrc">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_algorithm_rw.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_async.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_camshift.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_copytomask.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_cuda.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_dft.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_features2d.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_filestorage_io.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_fitline.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_gaussian_mix.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_grabcut.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_houghcircles.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_houghlines.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_kmeans.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_legacy.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_misc.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_morphology.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_mser.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_norm.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_persistence.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_squares.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_texture_flow.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_umat.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\test_watershed.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\tests_common.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\modules\python\test\tst_scene_render.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\_coverage.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\_doc.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\asift.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\browse.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\calibrate.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\camera_calibration_show_extrinsics.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\camshift.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\coherence.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\color_histogram.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\common.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\contours.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\deconvolution.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\demo.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\dft.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\digits.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\digits_adjust.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\digits_video.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\dis_opt_flow.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\distrans.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\drawing.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\edge.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\essential_mat_reconstr.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\facedetect.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\feature_homography.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\find_obj.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\fitline.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\floodfill.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\gabor_threads.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\gaussian_mix.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\grabcut.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\hist.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\houghcircles.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\houghlines.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\inpaint.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\kalman.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\kmeans.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\laplace.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\lappyr.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\letter_recog.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\lk_homography.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\lk_track.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\logpolar.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\morphology.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\mosse.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\mouse_and_match.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\mser.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\opencv_version.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\opt_flow.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\peopledetect.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\plane_ar.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\plane_tracker.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\qrcode.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\squares.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\stereo_match.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\stitching.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\stitching_detailed.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\text_skewness_correction.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\texture_flow.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tst_scene_render.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\turing.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\video.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\video_threaded.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\video_v4l2.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\watershed.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\action_recognition.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\classification.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\colorization.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\common.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\dasiamrpn_tracker.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\edge_detection.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\fast_neural_style.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\human_parsing.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\mask_rcnn.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\mobilenet_ssd_accuracy.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\object_detection.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\openpose.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\optical_flow.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\segmentation.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\shrink_tf_graph_weights.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\siamrpnpp.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\text_detection.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\tf_text_graph_common.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\tf_text_graph_efficientdet.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\tf_text_graph_faster_rcnn.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\tf_text_graph_mask_rcnn.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\tf_text_graph_ssd.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\dnn\virtual_try_on.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\Histograms_Matching\back_projection\calcBackProject_Demo1.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\Histograms_Matching\back_projection\calcBackProject_Demo2.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\Histograms_Matching\histogram_calculation\calcHist_Demo.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\Histograms_Matching\histogram_comparison\compareHist_Demo.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\Histograms_Matching\histogram_equalization\EqualizeHist_Demo.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ImgTrans\Filter2D\filter2D.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ImgTrans\HoughCircle\hough_circle.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ImgTrans\HoughLine\hough_lines.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ImgTrans\LaPlace\laplace_demo.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ImgTrans\MakeBorder\copy_make_border.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ImgTrans\SobelDemo\sobel_demo.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ImgTrans\canny_detector\CannyDetector_Demo.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ImgTrans\distance_transformation\imageSegmentation.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ImgTrans\remap\Remap_Demo.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ImgTrans\warp_affine\Geometric_Transforms_Demo.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ShapeDescriptors\bounding_rects_circles\generalContours_demo1.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ShapeDescriptors\bounding_rotated_ellipses\generalContours_demo2.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ShapeDescriptors\find_contours\findContours_demo.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ShapeDescriptors\hull\hull_demo.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ShapeDescriptors\moments\moments_demo.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ShapeDescriptors\point_polygon_test\pointPolygonTest_demo.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\TrackingMotion\corner_subpixels\cornerSubPix_Demo.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\TrackingMotion\generic_corner_detector\cornerDetector_Demo.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\TrackingMotion\good_features_to_track\goodFeaturesToTrack_Demo.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\TrackingMotion\harris_detector\cornerHarris_Demo.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\core\AddingImages\adding_images.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\core\discrete_fourier_transform\discrete_fourier_transform.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\core\file_input_output\file_input_output.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\core\mat_mask_operations\mat_mask_operations.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\core\mat_operations\mat_operations.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\features2D\Homography\panorama_stitching_rotating_camera.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\features2D\Homography\perspective_correction.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\features2D\akaze_matching\AKAZE_match.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\features2D\feature_description\SURF_matching_Demo.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\features2D\feature_detection\SURF_detection_Demo.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\features2D\feature_flann_matcher\SURF_FLANN_matching_Demo.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\features2D\feature_homography\SURF_FLANN_matching_homography_Demo.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\highgui\trackbar\AddingImagesTrackbar.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\imgProc\BasicGeometricDrawing\basic_geometric_drawing.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\imgProc\HitMiss\hit_miss.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\imgProc\Pyramids\pyramids.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\imgProc\Smoothing\smoothing.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\imgProc\anisotropic_image_segmentation\anisotropic_image_segmentation.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\imgProc\changing_contrast_brightness_image\BasicLinearTransforms.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\imgProc\changing_contrast_brightness_image\changing_contrast_brightness_image.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\imgProc\erosion_dilatation\morphology_1.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\imgProc\hough_line_transform\hough_line_transform.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\imgProc\hough_line_transform\probabilistic_hough_line_transform.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\imgProc\match_template\match_template.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\imgProc\morph_lines_detection\morph_lines_detection.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\imgProc\opening_closing_hats\morphology_2.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\imgProc\threshold\threshold.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\imgProc\threshold_inRange\threshold_inRange.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\introduction\display_image\display_image.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\introduction\documentation\documentation.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ml\introduction_to_pca\introduction_to_pca.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ml\introduction_to_svm\introduction_to_svm.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ml\non_linear_svms\non_linear_svms.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\ml\py_svm_opencv\hogsvm.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\objectDetection\cascade_classifier\objectDetection.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\photo\hdr_imaging\hdr_imaging.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\video\background_subtraction\bg_sub.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\video\meanshift\camshift.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\video\meanshift\meanshift.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\video\optical_flow\optical_flow.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\video\optical_flow\optical_flow_dense.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\samples\python\tutorial_code\videoio\video-input-psnr-ssim.py">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\check_pylint">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

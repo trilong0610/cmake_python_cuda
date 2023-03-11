@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F1D10C38-1C47-3787-986F-ECEB8EE466AA}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Study\Python\Lib\opencv-4.5.0\build\3rdparty\ippicv\ippicv_win\icv\include;D:\Study\Python\Lib\opencv-4.5.0\build\3rdparty\ippicv\ippicv_win\iw\include;D:\Study\Python\Lib\opencv-4.5.0\build;D:\Study\Python\Lib\opencv-4.5.0\modules\core\include;D:\Study\Python\Lib\opencv-4.5.0\build\modules\core;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudev\include;D:\Study\Python\Lib\opencv-4.5.0\3rdparty\zlib;D:\Study\Python\Lib\opencv-4.5.0\build\3rdparty\zlib;D:\Study\Python\Lib\opencv-4.5.0\3rdparty\include\opencl\1.2;D:\Study\Python\Lib\opencv-4.5.0\3rdparty\ittnotify\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Study\Python\Lib\opencv-4.5.0\build\3rdparty\ippicv\ippicv_win\icv\include;D:\Study\Python\Lib\opencv-4.5.0\build\3rdparty\ippicv\ippicv_win\iw\include;D:\Study\Python\Lib\opencv-4.5.0\build;D:\Study\Python\Lib\opencv-4.5.0\modules\core\include;D:\Study\Python\Lib\opencv-4.5.0\build\modules\core;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudev\include;D:\Study\Python\Lib\opencv-4.5.0\3rdparty\zlib;D:\Study\Python\Lib\opencv-4.5.0\build\3rdparty\zlib;D:\Study\Python\Lib\opencv-4.5.0\3rdparty\include\opencl\1.2;D:\Study\Python\Lib\opencv-4.5.0\3rdparty\ittnotify\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\core\opencv_core.vcxproj">
+      <Project>{C6B6D7EF-6768-38D1-94CF-BF70AD3931A6}</Project>
+      <Name>opencv_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\core\opencv_core_AVX.vcxproj">
+      <Project>{38C392F6-38AE-3F79-887E-C26B32A915AC}</Project>
+      <Name>opencv_core_AVX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\core\opencv_core_AVX2.vcxproj">
+      <Project>{8C0201B8-E4DF-30A7-B7F0-8681FD7D7C9D}</Project>
+      <Name>opencv_core_AVX2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\core\opencv_core_AVX512_SKX.vcxproj">
+      <Project>{90516A3D-A023-3AA6-94EE-E142B70CB810}</Project>
+      <Name>opencv_core_AVX512_SKX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\core\opencv_core_SSE4_1.vcxproj">
+      <Project>{BA793853-72C4-3147-B845-938B99BFA68F}</Project>
+      <Name>opencv_core_SSE4_1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\core\opencv_core_SSE4_2.vcxproj">
+      <Project>{475B3F5C-1B75-3A30-8718-BDA814C45580}</Project>
+      <Name>opencv_core_SSE4_2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

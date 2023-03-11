@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7621873A-74C6-3D88-AE1C-4309FF77E4A3}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>opencv_python3</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\lib\python3\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">opencv_python3.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">cv2.cp39-win_amd64</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.pyd</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\lib\python3\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">opencv_python3.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">cv2.cp39-win_amd64</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.pyd</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Study\Python\Lib\opencv-4.5.0\build\3rdparty\ippicv\ippicv_win\icv\include;D:\Study\Python\Lib\opencv-4.5.0\build\3rdparty\ippicv\ippicv_win\iw\include;D:\Study\Python\Lib\opencv-4.5.0\build;D:\Study\Python\Lib\opencv-4.5.0\modules\python\python3\include;D:\Study\Python\Lib\opencv-4.5.0\build\modules\python3;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudev\include;D:\Study\Python\Lib\opencv-4.5.0\modules\core\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaarithm\include;D:\Study\Python\Lib\opencv-4.5.0\modules\flann\include;D:\Study\Python\Lib\opencv-4.5.0\modules\imgproc\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\intensity_transform\include;D:\Study\Python\Lib\opencv-4.5.0\modules\ml\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\phase_unwrapping\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\plot\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\quality\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\reg\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\surface_matching\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudafilters\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaimgproc\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudawarping\include;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\dnn_superres\include;D:\Study\Python\Lib\opencv-4.5.0\modules\features2d\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\fuzzy\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\hfs\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\img_hash\include;D:\Study\Python\Lib\opencv-4.5.0\modules\imgcodecs\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\line_descriptor\include;D:\Study\Python\Lib\opencv-4.5.0\modules\photo\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\saliency\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\text\include;D:\Study\Python\Lib\opencv-4.5.0\modules\videoio\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\xphoto\include;D:\Study\Python\Lib\opencv-4.5.0\modules\calib3d\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudacodec\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudafeatures2d\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudastereo\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\datasets\include;D:\Study\Python\Lib\opencv-4.5.0\modules\highgui\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\mcc\include;D:\Study\Python\Lib\opencv-4.5.0\modules\objdetect\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\rapid\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\rgbd\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\shape\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\structured_light\include;D:\Study\Python\Lib\opencv-4.5.0\modules\video\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\xfeatures2d\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\xobjdetect\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\aruco\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\bgsegm\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\bioinspired\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ccalib\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudabgsegm\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudalegacy\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaobjdetect\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\dpm\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\face\include;D:\Study\Python\Lib\opencv-4.5.0\modules\gapi\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\optflow\include;D:\Study\Python\Lib\opencv-4.5.0\modules\stitching\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\tracking\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaoptflow\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\superres\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\videostab\include;D:\Study\Python\Lib\opencv-4.5.0\modules\python\src2;D:\Study\Python\Lib\opencv-4.5.0\build\modules\python_bindings_generator;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/trilo/AppData/Local/Programs/Python/Python39/include" /external:I "C:/Users/trilo/AppData/Local/Programs/Python/Python39/lib/site-packages/numpy/core/include" /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4127;4251;4324;4275;4512;4589;4100;4127;4505;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;__OPENCV_BUILD=1;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;CVAPI_EXPORTS;CMAKE_INTDIR="Debug";opencv_python3_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;__OPENCV_BUILD=1;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;CVAPI_EXPORTS;CMAKE_INTDIR=\"Debug\";opencv_python3_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Study\Python\Lib\opencv-4.5.0\build\3rdparty\ippicv\ippicv_win\icv\include;D:\Study\Python\Lib\opencv-4.5.0\build\3rdparty\ippicv\ippicv_win\iw\include;D:\Study\Python\Lib\opencv-4.5.0\build;D:\Study\Python\Lib\opencv-4.5.0\modules\python\python3\include;D:\Study\Python\Lib\opencv-4.5.0\build\modules\python3;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudev\include;D:\Study\Python\Lib\opencv-4.5.0\modules\core\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaarithm\include;D:\Study\Python\Lib\opencv-4.5.0\modules\flann\include;D:\Study\Python\Lib\opencv-4.5.0\modules\imgproc\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\intensity_transform\include;D:\Study\Python\Lib\opencv-4.5.0\modules\ml\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\phase_unwrapping\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\plot\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\quality\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\reg\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\surface_matching\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudafilters\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaimgproc\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudawarping\include;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\dnn_superres\include;D:\Study\Python\Lib\opencv-4.5.0\modules\features2d\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\fuzzy\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\hfs\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\img_hash\include;D:\Study\Python\Lib\opencv-4.5.0\modules\imgcodecs\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\line_descriptor\include;D:\Study\Python\Lib\opencv-4.5.0\modules\photo\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\saliency\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\text\include;D:\Study\Python\Lib\opencv-4.5.0\modules\videoio\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\xphoto\include;D:\Study\Python\Lib\opencv-4.5.0\modules\calib3d\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudacodec\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudafeatures2d\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudastereo\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\datasets\include;D:\Study\Python\Lib\opencv-4.5.0\modules\highgui\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\mcc\include;D:\Study\Python\Lib\opencv-4.5.0\modules\objdetect\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\rapid\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\rgbd\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\shape\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\structured_light\include;D:\Study\Python\Lib\opencv-4.5.0\modules\video\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\xfeatures2d\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\xobjdetect\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\aruco\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\bgsegm\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\bioinspired\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ccalib\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudabgsegm\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudalegacy\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaobjdetect\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\dpm\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\face\include;D:\Study\Python\Lib\opencv-4.5.0\modules\gapi\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\optflow\include;D:\Study\Python\Lib\opencv-4.5.0\modules\stitching\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\tracking\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaoptflow\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\superres\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\videostab\include;D:\Study\Python\Lib\opencv-4.5.0\modules\python\src2;D:\Study\Python\Lib\opencv-4.5.0\build\modules\python_bindings_generator;C:\Users\trilo\AppData\Local\Programs\Python\Python39\include;C:\Users\trilo\AppData\Local\Programs\Python\Python39\lib\site-packages\numpy\core\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Study\Python\Lib\opencv-4.5.0\build\3rdparty\ippicv\ippicv_win\icv\include;D:\Study\Python\Lib\opencv-4.5.0\build\3rdparty\ippicv\ippicv_win\iw\include;D:\Study\Python\Lib\opencv-4.5.0\build;D:\Study\Python\Lib\opencv-4.5.0\modules\python\python3\include;D:\Study\Python\Lib\opencv-4.5.0\build\modules\python3;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudev\include;D:\Study\Python\Lib\opencv-4.5.0\modules\core\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaarithm\include;D:\Study\Python\Lib\opencv-4.5.0\modules\flann\include;D:\Study\Python\Lib\opencv-4.5.0\modules\imgproc\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\intensity_transform\include;D:\Study\Python\Lib\opencv-4.5.0\modules\ml\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\phase_unwrapping\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\plot\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\quality\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\reg\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\surface_matching\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudafilters\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaimgproc\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudawarping\include;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\dnn_superres\include;D:\Study\Python\Lib\opencv-4.5.0\modules\features2d\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\fuzzy\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\hfs\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\img_hash\include;D:\Study\Python\Lib\opencv-4.5.0\modules\imgcodecs\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\line_descriptor\include;D:\Study\Python\Lib\opencv-4.5.0\modules\photo\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\saliency\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\text\include;D:\Study\Python\Lib\opencv-4.5.0\modules\videoio\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\xphoto\include;D:\Study\Python\Lib\opencv-4.5.0\modules\calib3d\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudacodec\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudafeatures2d\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudastereo\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\datasets\include;D:\Study\Python\Lib\opencv-4.5.0\modules\highgui\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\mcc\include;D:\Study\Python\Lib\opencv-4.5.0\modules\objdetect\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\rapid\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\rgbd\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\shape\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\structured_light\include;D:\Study\Python\Lib\opencv-4.5.0\modules\video\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\xfeatures2d\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\xobjdetect\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\aruco\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\bgsegm\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\bioinspired\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ccalib\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudabgsegm\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudalegacy\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaobjdetect\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\dpm\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\face\include;D:\Study\Python\Lib\opencv-4.5.0\modules\gapi\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\optflow\include;D:\Study\Python\Lib\opencv-4.5.0\modules\stitching\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\tracking\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaoptflow\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\superres\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\videostab\include;D:\Study\Python\Lib\opencv-4.5.0\modules\python\src2;D:\Study\Python\Lib\opencv-4.5.0\build\modules\python_bindings_generator;C:\Users\trilo\AppData\Local\Programs\Python\Python39\include;C:\Users\trilo\AppData\Local\Programs\Python\Python39\lib\site-packages\numpy\core\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\trilo\AppData\Local\Programs\Python\Python39\libs\python39.lib;..\..\lib\Debug\opencv_intensity_transform450d.lib;..\..\lib\Debug\opencv_reg450d.lib;..\..\lib\Debug\opencv_surface_matching450d.lib;..\..\lib\Debug\opencv_dnn_superres450d.lib;..\..\lib\Debug\opencv_fuzzy450d.lib;..\..\lib\Debug\opencv_hfs450d.lib;..\..\lib\Debug\opencv_img_hash450d.lib;..\..\lib\Debug\opencv_line_descriptor450d.lib;..\..\lib\Debug\opencv_saliency450d.lib;..\..\lib\Debug\opencv_xphoto450d.lib;..\..\lib\Debug\opencv_cudastereo450d.lib;..\..\lib\Debug\opencv_mcc450d.lib;..\..\lib\Debug\opencv_rapid450d.lib;..\..\lib\Debug\opencv_rgbd450d.lib;..\..\lib\Debug\opencv_structured_light450d.lib;..\..\lib\Debug\opencv_xobjdetect450d.lib;..\..\lib\Debug\opencv_aruco450d.lib;..\..\lib\Debug\opencv_bgsegm450d.lib;..\..\lib\Debug\opencv_bioinspired450d.lib;..\..\lib\Debug\opencv_ccalib450d.lib;..\..\lib\Debug\opencv_cudabgsegm450d.lib;..\..\lib\Debug\opencv_cudaobjdetect450d.lib;..\..\lib\Debug\opencv_dpm450d.lib;..\..\lib\Debug\opencv_face450d.lib;..\..\lib\Debug\opencv_gapi450d.lib;..\..\lib\Debug\opencv_stitching450d.lib;..\..\lib\Debug\opencv_tracking450d.lib;..\..\lib\Debug\opencv_superres450d.lib;..\..\lib\Debug\opencv_videostab450d.lib;..\..\lib\Debug\opencv_quality450d.lib;..\..\lib\Debug\opencv_phase_unwrapping450d.lib;..\..\lib\Debug\opencv_highgui450d.lib;..\..\lib\Debug\opencv_cudafeatures2d450d.lib;..\..\lib\Debug\opencv_xfeatures2d450d.lib;..\..\lib\Debug\opencv_shape450d.lib;..\..\lib\Debug\opencv_plot450d.lib;..\..\lib\Debug\opencv_datasets450d.lib;..\..\lib\Debug\opencv_text450d.lib;..\..\lib\Debug\opencv_ml450d.lib;..\..\lib\Debug\opencv_dnn450d.lib;..\..\lib\Debug\opencv_cudacodec450d.lib;..\..\lib\Debug\opencv_photo450d.lib;..\..\lib\Debug\opencv_videoio450d.lib;..\..\lib\Debug\opencv_cudaoptflow450d.lib;..\..\lib\Debug\opencv_cudawarping450d.lib;..\..\lib\Debug\opencv_cudalegacy450d.lib;..\..\lib\Debug\opencv_cudaimgproc450d.lib;..\..\lib\Debug\opencv_cudafilters450d.lib;..\..\lib\Debug\opencv_cudaarithm450d.lib;..\..\lib\Debug\opencv_objdetect450d.lib;..\..\lib\Debug\opencv_optflow450d.lib;..\..\lib\Debug\opencv_ximgproc450d.lib;..\..\lib\Debug\opencv_imgcodecs450d.lib;..\..\lib\Debug\opencv_video450d.lib;..\..\lib\Debug\opencv_calib3d450d.lib;..\..\lib\Debug\opencv_features2d450d.lib;..\..\lib\Debug\opencv_flann450d.lib;..\..\lib\Debug\opencv_imgproc450d.lib;..\..\lib\Debug\opencv_core450d.lib;..\..\lib\Debug\opencv_cudev450d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/lib/x64;C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Study/Python/Lib/opencv-4.5.0/build/lib/Debug/opencv_python3.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Study/Python/Lib/opencv-4.5.0/build/lib/python3/Debug/cv2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Study\Python\Lib\opencv-4.5.0\build\3rdparty\ippicv\ippicv_win\icv\include;D:\Study\Python\Lib\opencv-4.5.0\build\3rdparty\ippicv\ippicv_win\iw\include;D:\Study\Python\Lib\opencv-4.5.0\build;D:\Study\Python\Lib\opencv-4.5.0\modules\python\python3\include;D:\Study\Python\Lib\opencv-4.5.0\build\modules\python3;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudev\include;D:\Study\Python\Lib\opencv-4.5.0\modules\core\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaarithm\include;D:\Study\Python\Lib\opencv-4.5.0\modules\flann\include;D:\Study\Python\Lib\opencv-4.5.0\modules\imgproc\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\intensity_transform\include;D:\Study\Python\Lib\opencv-4.5.0\modules\ml\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\phase_unwrapping\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\plot\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\quality\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\reg\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\surface_matching\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudafilters\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaimgproc\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudawarping\include;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\dnn_superres\include;D:\Study\Python\Lib\opencv-4.5.0\modules\features2d\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\fuzzy\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\hfs\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\img_hash\include;D:\Study\Python\Lib\opencv-4.5.0\modules\imgcodecs\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\line_descriptor\include;D:\Study\Python\Lib\opencv-4.5.0\modules\photo\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\saliency\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\text\include;D:\Study\Python\Lib\opencv-4.5.0\modules\videoio\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\xphoto\include;D:\Study\Python\Lib\opencv-4.5.0\modules\calib3d\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudacodec\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudafeatures2d\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudastereo\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\datasets\include;D:\Study\Python\Lib\opencv-4.5.0\modules\highgui\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\mcc\include;D:\Study\Python\Lib\opencv-4.5.0\modules\objdetect\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\rapid\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\rgbd\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\shape\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\structured_light\include;D:\Study\Python\Lib\opencv-4.5.0\modules\video\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\xfeatures2d\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\xobjdetect\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\aruco\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\bgsegm\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\bioinspired\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ccalib\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudabgsegm\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudalegacy\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaobjdetect\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\dpm\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\face\include;D:\Study\Python\Lib\opencv-4.5.0\modules\gapi\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\optflow\include;D:\Study\Python\Lib\opencv-4.5.0\modules\stitching\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\tracking\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaoptflow\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\superres\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\videostab\include;D:\Study\Python\Lib\opencv-4.5.0\modules\python\src2;D:\Study\Python\Lib\opencv-4.5.0\build\modules\python_bindings_generator;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/trilo/AppData/Local/Programs/Python/Python39/include" /external:I "C:/Users/trilo/AppData/Local/Programs/Python/Python39/lib/site-packages/numpy/core/include" /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4127;4251;4324;4275;4512;4589;4100;4127;4505;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;__OPENCV_BUILD=1;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;CVAPI_EXPORTS;CMAKE_INTDIR="Release";opencv_python3_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;__OPENCV_BUILD=1;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;CVAPI_EXPORTS;CMAKE_INTDIR=\"Release\";opencv_python3_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Study\Python\Lib\opencv-4.5.0\build\3rdparty\ippicv\ippicv_win\icv\include;D:\Study\Python\Lib\opencv-4.5.0\build\3rdparty\ippicv\ippicv_win\iw\include;D:\Study\Python\Lib\opencv-4.5.0\build;D:\Study\Python\Lib\opencv-4.5.0\modules\python\python3\include;D:\Study\Python\Lib\opencv-4.5.0\build\modules\python3;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudev\include;D:\Study\Python\Lib\opencv-4.5.0\modules\core\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaarithm\include;D:\Study\Python\Lib\opencv-4.5.0\modules\flann\include;D:\Study\Python\Lib\opencv-4.5.0\modules\imgproc\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\intensity_transform\include;D:\Study\Python\Lib\opencv-4.5.0\modules\ml\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\phase_unwrapping\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\plot\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\quality\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\reg\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\surface_matching\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudafilters\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaimgproc\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudawarping\include;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\dnn_superres\include;D:\Study\Python\Lib\opencv-4.5.0\modules\features2d\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\fuzzy\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\hfs\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\img_hash\include;D:\Study\Python\Lib\opencv-4.5.0\modules\imgcodecs\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\line_descriptor\include;D:\Study\Python\Lib\opencv-4.5.0\modules\photo\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\saliency\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\text\include;D:\Study\Python\Lib\opencv-4.5.0\modules\videoio\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\xphoto\include;D:\Study\Python\Lib\opencv-4.5.0\modules\calib3d\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudacodec\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudafeatures2d\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudastereo\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\datasets\include;D:\Study\Python\Lib\opencv-4.5.0\modules\highgui\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\mcc\include;D:\Study\Python\Lib\opencv-4.5.0\modules\objdetect\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\rapid\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\rgbd\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\shape\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\structured_light\include;D:\Study\Python\Lib\opencv-4.5.0\modules\video\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\xfeatures2d\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\xobjdetect\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\aruco\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\bgsegm\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\bioinspired\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ccalib\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudabgsegm\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudalegacy\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaobjdetect\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\dpm\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\face\include;D:\Study\Python\Lib\opencv-4.5.0\modules\gapi\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\optflow\include;D:\Study\Python\Lib\opencv-4.5.0\modules\stitching\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\tracking\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaoptflow\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\superres\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\videostab\include;D:\Study\Python\Lib\opencv-4.5.0\modules\python\src2;D:\Study\Python\Lib\opencv-4.5.0\build\modules\python_bindings_generator;C:\Users\trilo\AppData\Local\Programs\Python\Python39\include;C:\Users\trilo\AppData\Local\Programs\Python\Python39\lib\site-packages\numpy\core\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Study\Python\Lib\opencv-4.5.0\build\3rdparty\ippicv\ippicv_win\icv\include;D:\Study\Python\Lib\opencv-4.5.0\build\3rdparty\ippicv\ippicv_win\iw\include;D:\Study\Python\Lib\opencv-4.5.0\build;D:\Study\Python\Lib\opencv-4.5.0\modules\python\python3\include;D:\Study\Python\Lib\opencv-4.5.0\build\modules\python3;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudev\include;D:\Study\Python\Lib\opencv-4.5.0\modules\core\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaarithm\include;D:\Study\Python\Lib\opencv-4.5.0\modules\flann\include;D:\Study\Python\Lib\opencv-4.5.0\modules\imgproc\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\intensity_transform\include;D:\Study\Python\Lib\opencv-4.5.0\modules\ml\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\phase_unwrapping\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\plot\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\quality\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\reg\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\surface_matching\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudafilters\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaimgproc\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudawarping\include;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\dnn_superres\include;D:\Study\Python\Lib\opencv-4.5.0\modules\features2d\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\fuzzy\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\hfs\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\img_hash\include;D:\Study\Python\Lib\opencv-4.5.0\modules\imgcodecs\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\line_descriptor\include;D:\Study\Python\Lib\opencv-4.5.0\modules\photo\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\saliency\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\text\include;D:\Study\Python\Lib\opencv-4.5.0\modules\videoio\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\xphoto\include;D:\Study\Python\Lib\opencv-4.5.0\modules\calib3d\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudacodec\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudafeatures2d\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudastereo\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\datasets\include;D:\Study\Python\Lib\opencv-4.5.0\modules\highgui\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\mcc\include;D:\Study\Python\Lib\opencv-4.5.0\modules\objdetect\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\rapid\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\rgbd\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\shape\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\structured_light\include;D:\Study\Python\Lib\opencv-4.5.0\modules\video\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\xfeatures2d\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ximgproc\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\xobjdetect\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\aruco\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\bgsegm\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\bioinspired\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\ccalib\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudabgsegm\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudalegacy\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaobjdetect\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\dpm\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\face\include;D:\Study\Python\Lib\opencv-4.5.0\modules\gapi\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\optflow\include;D:\Study\Python\Lib\opencv-4.5.0\modules\stitching\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\tracking\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaoptflow\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\superres\include;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\videostab\include;D:\Study\Python\Lib\opencv-4.5.0\modules\python\src2;D:\Study\Python\Lib\opencv-4.5.0\build\modules\python_bindings_generator;C:\Users\trilo\AppData\Local\Programs\Python\Python39\include;C:\Users\trilo\AppData\Local\Programs\Python\Python39\lib\site-packages\numpy\core\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\trilo\AppData\Local\Programs\Python\Python39\libs\python39.lib;..\..\lib\Release\opencv_intensity_transform450.lib;..\..\lib\Release\opencv_reg450.lib;..\..\lib\Release\opencv_surface_matching450.lib;..\..\lib\Release\opencv_dnn_superres450.lib;..\..\lib\Release\opencv_fuzzy450.lib;..\..\lib\Release\opencv_hfs450.lib;..\..\lib\Release\opencv_img_hash450.lib;..\..\lib\Release\opencv_line_descriptor450.lib;..\..\lib\Release\opencv_saliency450.lib;..\..\lib\Release\opencv_xphoto450.lib;..\..\lib\Release\opencv_cudastereo450.lib;..\..\lib\Release\opencv_mcc450.lib;..\..\lib\Release\opencv_rapid450.lib;..\..\lib\Release\opencv_rgbd450.lib;..\..\lib\Release\opencv_structured_light450.lib;..\..\lib\Release\opencv_xobjdetect450.lib;..\..\lib\Release\opencv_aruco450.lib;..\..\lib\Release\opencv_bgsegm450.lib;..\..\lib\Release\opencv_bioinspired450.lib;..\..\lib\Release\opencv_ccalib450.lib;..\..\lib\Release\opencv_cudabgsegm450.lib;..\..\lib\Release\opencv_cudaobjdetect450.lib;..\..\lib\Release\opencv_dpm450.lib;..\..\lib\Release\opencv_face450.lib;..\..\lib\Release\opencv_gapi450.lib;..\..\lib\Release\opencv_stitching450.lib;..\..\lib\Release\opencv_tracking450.lib;..\..\lib\Release\opencv_superres450.lib;..\..\lib\Release\opencv_videostab450.lib;..\..\lib\Release\opencv_quality450.lib;..\..\lib\Release\opencv_phase_unwrapping450.lib;..\..\lib\Release\opencv_highgui450.lib;..\..\lib\Release\opencv_cudafeatures2d450.lib;..\..\lib\Release\opencv_xfeatures2d450.lib;..\..\lib\Release\opencv_shape450.lib;..\..\lib\Release\opencv_plot450.lib;..\..\lib\Release\opencv_datasets450.lib;..\..\lib\Release\opencv_text450.lib;..\..\lib\Release\opencv_ml450.lib;..\..\lib\Release\opencv_dnn450.lib;..\..\lib\Release\opencv_cudacodec450.lib;..\..\lib\Release\opencv_photo450.lib;..\..\lib\Release\opencv_videoio450.lib;..\..\lib\Release\opencv_cudaoptflow450.lib;..\..\lib\Release\opencv_cudawarping450.lib;..\..\lib\Release\opencv_cudalegacy450.lib;..\..\lib\Release\opencv_cudaimgproc450.lib;..\..\lib\Release\opencv_cudafilters450.lib;..\..\lib\Release\opencv_cudaarithm450.lib;..\..\lib\Release\opencv_objdetect450.lib;..\..\lib\Release\opencv_optflow450.lib;..\..\lib\Release\opencv_ximgproc450.lib;..\..\lib\Release\opencv_imgcodecs450.lib;..\..\lib\Release\opencv_video450.lib;..\..\lib\Release\opencv_calib3d450.lib;..\..\lib\Release\opencv_features2d450.lib;..\..\lib\Release\opencv_flann450.lib;..\..\lib\Release\opencv_imgproc450.lib;..\..\lib\Release\opencv_core450.lib;..\..\lib\Release\opencv_cudev450.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/lib/x64;C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Study/Python/Lib/opencv-4.5.0/build/lib/Release/opencv_python3.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Study/Python/Lib/opencv-4.5.0/build/lib/python3/Release/cv2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\python\src2\cv2.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\python_bindings_generator\gen_opencv_python_source.vcxproj">
+      <Project>{AC0DC108-EEB2-36B0-9B39-74666E3DD168}</Project>
+      <Name>gen_opencv_python_source</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\aruco\opencv_aruco.vcxproj">
+      <Project>{AF92DD3D-3938-3949-AFD5-AD0ED5EDD0FD}</Project>
+      <Name>opencv_aruco</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\bgsegm\opencv_bgsegm.vcxproj">
+      <Project>{9CF4A04B-22B2-30D6-8AC6-1FC7AC531273}</Project>
+      <Name>opencv_bgsegm</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\bioinspired\opencv_bioinspired.vcxproj">
+      <Project>{9D4AE824-40BE-3E3A-8153-44037A2D7AFD}</Project>
+      <Name>opencv_bioinspired</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\calib3d\opencv_calib3d.vcxproj">
+      <Project>{D74A9B89-5CF4-30CF-8C79-A7459B85F5EA}</Project>
+      <Name>opencv_calib3d</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\ccalib\opencv_ccalib.vcxproj">
+      <Project>{A44C8683-E0BF-3883-A17A-82386A60173B}</Project>
+      <Name>opencv_ccalib</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\core\opencv_core.vcxproj">
+      <Project>{C6B6D7EF-6768-38D1-94CF-BF70AD3931A6}</Project>
+      <Name>opencv_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaarithm\opencv_cudaarithm.vcxproj">
+      <Project>{B1FFFB6C-BF97-3165-B6FB-58302F02CAC0}</Project>
+      <Name>opencv_cudaarithm</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudabgsegm\opencv_cudabgsegm.vcxproj">
+      <Project>{A4E0F461-F6FF-3398-A467-57AB66C81CE3}</Project>
+      <Name>opencv_cudabgsegm</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudacodec\opencv_cudacodec.vcxproj">
+      <Project>{43AF2512-D742-3E7E-B8A9-FF0D72B00813}</Project>
+      <Name>opencv_cudacodec</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudafeatures2d\opencv_cudafeatures2d.vcxproj">
+      <Project>{E570A0BE-6D25-33E3-AE14-08A4800F8E8D}</Project>
+      <Name>opencv_cudafeatures2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudafilters\opencv_cudafilters.vcxproj">
+      <Project>{EC6549A2-3F82-3928-9487-E2E8FCD2D4AF}</Project>
+      <Name>opencv_cudafilters</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaimgproc\opencv_cudaimgproc.vcxproj">
+      <Project>{DD9F7085-3AAA-35D6-996B-BCBBE28CE861}</Project>
+      <Name>opencv_cudaimgproc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudalegacy\opencv_cudalegacy.vcxproj">
+      <Project>{42B78FE4-D5C2-3B05-BC00-E4A579ED4BC5}</Project>
+      <Name>opencv_cudalegacy</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaobjdetect\opencv_cudaobjdetect.vcxproj">
+      <Project>{9B104164-C13C-3304-B3D6-8DEE486D009C}</Project>
+      <Name>opencv_cudaobjdetect</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaoptflow\opencv_cudaoptflow.vcxproj">
+      <Project>{9E0435AC-B077-3CF1-9507-82972A11BC8C}</Project>
+      <Name>opencv_cudaoptflow</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudastereo\opencv_cudastereo.vcxproj">
+      <Project>{D364BC05-8728-37BF-AD73-1D5497A025E3}</Project>
+      <Name>opencv_cudastereo</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudawarping\opencv_cudawarping.vcxproj">
+      <Project>{50DFA2B1-DFD1-3F01-8002-6748378976EB}</Project>
+      <Name>opencv_cudawarping</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudev\opencv_cudev.vcxproj">
+      <Project>{C5A1E9EB-8ACD-3F16-902C-3D08DAFBE0C0}</Project>
+      <Name>opencv_cudev</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\datasets\opencv_datasets.vcxproj">
+      <Project>{5AB0EF88-DFC2-36F3-94EF-C88A0CFFDA1D}</Project>
+      <Name>opencv_datasets</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\opencv_dnn.vcxproj">
+      <Project>{170F205B-2526-3E39-A4BC-98B017EAEB52}</Project>
+      <Name>opencv_dnn</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn_superres\opencv_dnn_superres.vcxproj">
+      <Project>{C3694F74-6FF5-37E2-BCD1-53E11AE08D02}</Project>
+      <Name>opencv_dnn_superres</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\dpm\opencv_dpm.vcxproj">
+      <Project>{FFDF1C1F-F429-38A0-9D5C-AB64744E2D41}</Project>
+      <Name>opencv_dpm</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\face\opencv_face.vcxproj">
+      <Project>{7D73C1EA-6741-345D-BC06-9D52F3459DC3}</Project>
+      <Name>opencv_face</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\features2d\opencv_features2d.vcxproj">
+      <Project>{731C582F-9872-31D8-B7BE-38159AC32B97}</Project>
+      <Name>opencv_features2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\flann\opencv_flann.vcxproj">
+      <Project>{6B8DCD59-3B99-3147-B175-A27DF2949A44}</Project>
+      <Name>opencv_flann</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\fuzzy\opencv_fuzzy.vcxproj">
+      <Project>{3B96FFAF-3A7D-3A54-BF3D-147BA0EE11F6}</Project>
+      <Name>opencv_fuzzy</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\gapi\opencv_gapi.vcxproj">
+      <Project>{2FA91055-BF5F-37B5-A0FC-85D2285A6140}</Project>
+      <Name>opencv_gapi</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\hfs\opencv_hfs.vcxproj">
+      <Project>{06C015C9-0A37-3290-8DEC-93CD8B047379}</Project>
+      <Name>opencv_hfs</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\highgui\opencv_highgui.vcxproj">
+      <Project>{89172955-D236-33D4-A223-53D38D1156B3}</Project>
+      <Name>opencv_highgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\img_hash\opencv_img_hash.vcxproj">
+      <Project>{6ED38C41-150D-306B-A1ED-9E5D55F2E9F2}</Project>
+      <Name>opencv_img_hash</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\imgcodecs\opencv_imgcodecs.vcxproj">
+      <Project>{E954C355-CF3C-3F0F-AA57-0A36F867D067}</Project>
+      <Name>opencv_imgcodecs</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\imgproc\opencv_imgproc.vcxproj">
+      <Project>{34176B70-BA95-353E-891E-E4B5C787C619}</Project>
+      <Name>opencv_imgproc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\intensity_transform\opencv_intensity_transform.vcxproj">
+      <Project>{9373E599-93D1-3B8D-AF26-808DF1E482F9}</Project>
+      <Name>opencv_intensity_transform</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\line_descriptor\opencv_line_descriptor.vcxproj">
+      <Project>{A7DF4C22-2AD6-3ACF-B108-847A98B72E6D}</Project>
+      <Name>opencv_line_descriptor</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\mcc\opencv_mcc.vcxproj">
+      <Project>{DC2C71BE-708E-3E4D-B687-61548FBFF44F}</Project>
+      <Name>opencv_mcc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\ml\opencv_ml.vcxproj">
+      <Project>{A770480C-1479-3BCC-B64A-2F602144779B}</Project>
+      <Name>opencv_ml</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\objdetect\opencv_objdetect.vcxproj">
+      <Project>{C4635E32-D531-3227-B096-F5CF1CDEFB19}</Project>
+      <Name>opencv_objdetect</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\optflow\opencv_optflow.vcxproj">
+      <Project>{C6988CA5-9D05-3620-9FD9-BA6C5720BC21}</Project>
+      <Name>opencv_optflow</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\phase_unwrapping\opencv_phase_unwrapping.vcxproj">
+      <Project>{D6642091-2E56-3C53-B5E9-30D7D8024F8E}</Project>
+      <Name>opencv_phase_unwrapping</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\photo\opencv_photo.vcxproj">
+      <Project>{85BFCC60-B0A5-34FF-9E5C-32626DB52DE5}</Project>
+      <Name>opencv_photo</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\plot\opencv_plot.vcxproj">
+      <Project>{87B14F6E-09B4-3C4A-BD18-A837C5BC081C}</Project>
+      <Name>opencv_plot</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\quality\opencv_quality.vcxproj">
+      <Project>{9B731CF9-87D0-3EBD-8D60-BA410DF40541}</Project>
+      <Name>opencv_quality</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\rapid\opencv_rapid.vcxproj">
+      <Project>{DEF65CD3-2A07-37E8-BB43-39CF57EF1D15}</Project>
+      <Name>opencv_rapid</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\reg\opencv_reg.vcxproj">
+      <Project>{B7EA0E8A-E773-3CEE-BBAE-41C70CB876F0}</Project>
+      <Name>opencv_reg</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\rgbd\opencv_rgbd.vcxproj">
+      <Project>{25884B93-B6F9-3D8F-8154-59D179633D78}</Project>
+      <Name>opencv_rgbd</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\saliency\opencv_saliency.vcxproj">
+      <Project>{01ECEB15-59C1-383C-800E-694F7EDB0AA5}</Project>
+      <Name>opencv_saliency</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\shape\opencv_shape.vcxproj">
+      <Project>{59277832-A847-3C6B-A740-FB00ED4284D2}</Project>
+      <Name>opencv_shape</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\stitching\opencv_stitching.vcxproj">
+      <Project>{0A95FA10-5633-30D0-8E3C-396EC7A86064}</Project>
+      <Name>opencv_stitching</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\structured_light\opencv_structured_light.vcxproj">
+      <Project>{6A85F0C1-917B-3A09-80FB-6272AB309D93}</Project>
+      <Name>opencv_structured_light</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\superres\opencv_superres.vcxproj">
+      <Project>{9C043E37-C1F3-305E-A592-7E6BA07E7020}</Project>
+      <Name>opencv_superres</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\surface_matching\opencv_surface_matching.vcxproj">
+      <Project>{FD65BF51-26B1-3E02-939C-1603A960686F}</Project>
+      <Name>opencv_surface_matching</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\text\opencv_text.vcxproj">
+      <Project>{020A752E-C141-3C8C-8428-05CA83BC8AE8}</Project>
+      <Name>opencv_text</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\tracking\opencv_tracking.vcxproj">
+      <Project>{4D57C941-6156-34AE-9520-565D18A34CE9}</Project>
+      <Name>opencv_tracking</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\video\opencv_video.vcxproj">
+      <Project>{9DEA6545-3BCD-33C9-87D4-B4520DE9F725}</Project>
+      <Name>opencv_video</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\videoio\opencv_videoio.vcxproj">
+      <Project>{D43402FA-71B7-3F98-A7BE-CF1CB1BFBFC7}</Project>
+      <Name>opencv_videoio</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\videostab\opencv_videostab.vcxproj">
+      <Project>{DDF4C8DE-24D0-37B7-8BFB-49E1B03992EC}</Project>
+      <Name>opencv_videostab</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\xfeatures2d\opencv_xfeatures2d.vcxproj">
+      <Project>{1EE593B6-3051-30DE-9A43-4D444E7B1412}</Project>
+      <Name>opencv_xfeatures2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\ximgproc\opencv_ximgproc.vcxproj">
+      <Project>{BDDDC77B-925E-37AD-8BD6-69BECC3FAD6E}</Project>
+      <Name>opencv_ximgproc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\xobjdetect\opencv_xobjdetect.vcxproj">
+      <Project>{419A09B3-D884-3944-A6AB-D490847566F1}</Project>
+      <Name>opencv_xobjdetect</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\xphoto\opencv_xphoto.vcxproj">
+      <Project>{17D2D2FE-B041-3107-8094-D26EEA6F5CC4}</Project>
+      <Name>opencv_xphoto</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

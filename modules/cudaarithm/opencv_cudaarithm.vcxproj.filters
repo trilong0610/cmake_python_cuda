@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaarithm\src\arithm.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaarithm\src\core.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaarithm\src\element_operations.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaarithm\src\lut.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaarithm\src\reductions.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaarithm\opencv_cudaarithm_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaarithm\include\opencv2\cudaarithm.hpp">
+      <Filter>Include\opencv2</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaarithm\src\lut.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaarithm\src\precomp.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\build\cvconfig.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\build\opencv2\opencv_modules.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaarithm\src\cuda\absdiff_mat.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaarithm\src\cuda\absdiff_scalar.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaarithm\src\cuda\add_mat.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaarithm\src\cuda\add_scalar.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaarithm\src\cuda\add_weighted.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaarithm\src\cuda\bitwise_mat.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaarithm\src\cuda\bitwise_scalar.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaarithm\src\cuda\cmp_mat.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaarithm\src\cuda\cmp_scalar.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaarithm\src\cuda\copy_make_border.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaarithm\src\cuda\countnonzero.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaarithm\src\cuda\div_mat.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaarithm\src\cuda\div_scalar.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaarithm\src\cuda\integral.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaarithm\src\cuda\lut.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaarithm\src\cuda\math.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaarithm\src\cuda\minmax.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaarithm\src\cuda\minmax_mat.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaarithm\src\cuda\minmaxloc.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaarithm\src\cuda\mul_mat.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaarithm\src\cuda\mul_scalar.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaarithm\src\cuda\mul_spectrums.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaarithm\src\cuda\norm.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaarithm\src\cuda\normalize.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaarithm\src\cuda\polar_cart.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaarithm\src\cuda\reduce.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaarithm\src\cuda\split_merge.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaarithm\src\cuda\sub_mat.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaarithm\src\cuda\sub_scalar.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaarithm\src\cuda\sum.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaarithm\src\cuda\threshold.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaarithm\src\cuda\transpose.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaarithm\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_absdiff_mat.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaarithm\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_absdiff_scalar.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaarithm\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_add_mat.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaarithm\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_add_scalar.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaarithm\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_add_weighted.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaarithm\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_bitwise_mat.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaarithm\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_bitwise_scalar.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaarithm\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_cmp_mat.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaarithm\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_cmp_scalar.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaarithm\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_copy_make_border.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaarithm\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_countnonzero.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaarithm\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_div_mat.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaarithm\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_div_scalar.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaarithm\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_integral.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaarithm\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_lut.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaarithm\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_math.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaarithm\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_minmax.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaarithm\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_minmax_mat.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaarithm\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_minmaxloc.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaarithm\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_mul_mat.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaarithm\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_mul_scalar.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaarithm\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_mul_spectrums.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaarithm\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_norm.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaarithm\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_normalize.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaarithm\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_polar_cart.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaarithm\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_reduce.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaarithm\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_split_merge.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaarithm\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_sub_mat.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaarithm\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_sub_scalar.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaarithm\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_sum.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaarithm\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_threshold.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaarithm\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_transpose.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaarithm\vs_version.rc">
+      <Filter>Src</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{7B934226-BF50-3DE1-B937-8EA8471035E2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2">
+      <UniqueIdentifier>{6F4F6A9B-E0CD-3FE5-B12D-891088625776}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Files">
+      <UniqueIdentifier>{7B86EA94-EDAF-3F25-925E-4E600E1C0DED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{724F6620-C0A2-3992-AF9D-62DBEF5A36C5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{6BDAB249-4DEF-3DAD-A179-38B43786DF6F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Cuda">
+      <UniqueIdentifier>{CFDB773B-21CA-3C62-9DD9-8C25DE9815B3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

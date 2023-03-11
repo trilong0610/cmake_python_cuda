@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaobjdetect\src\cascadeclassifier.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaobjdetect\src\hog.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaobjdetect\opencv_cudaobjdetect_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaobjdetect\include\opencv2\cudaobjdetect.hpp">
+      <Filter>Include\opencv2</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaobjdetect\src\cuda\lbp.hpp">
+      <Filter>Src\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaobjdetect\src\precomp.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\build\cvconfig.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\build\opencv2\opencv_modules.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaobjdetect\src\cuda\hog.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudaobjdetect\src\cuda\lbp.cu">
+      <Filter>Src\Cuda</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaobjdetect\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_hog.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaobjdetect\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_lbp.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudaobjdetect\vs_version.rc">
+      <Filter>Src</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{7B934226-BF50-3DE1-B937-8EA8471035E2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2">
+      <UniqueIdentifier>{6F4F6A9B-E0CD-3FE5-B12D-891088625776}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Files">
+      <UniqueIdentifier>{7B86EA94-EDAF-3F25-925E-4E600E1C0DED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{724F6620-C0A2-3992-AF9D-62DBEF5A36C5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{6BDAB249-4DEF-3DAD-A179-38B43786DF6F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Cuda">
+      <UniqueIdentifier>{CFDB773B-21CA-3C62-9DD9-8C25DE9815B3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\cuda">
+      <UniqueIdentifier>{20893237-FD14-369A-8843-2AE9D8D4400B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

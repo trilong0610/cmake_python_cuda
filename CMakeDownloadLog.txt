@@ -1,0 +1,2565 @@
+#use_cache "D:/Study/Python/Lib/opencv-4.5.0/.cache"
+#match_hash_in_cmake_cache "OCV_DOWNLOAD_IPPICV_HASH_3rdparty_ippicv_ippicv_2020_win_intel64_20191018_general_zip"
+#match_hash_in_cmake_cache "OCV_DOWNLOAD_ADE_HASH_3rdparty_ade_v0_1_1f_zip"
+#match_hash_in_cmake_cache "OCV_DOWNLOAD_FFMPEG_HASH_3rdparty_ffmpeg_opencv_videoio_ffmpeg_dll"
+#match_hash_in_cmake_cache "OCV_DOWNLOAD_FFMPEG_HASH_3rdparty_ffmpeg_opencv_videoio_ffmpeg_64_dll"
+#match_hash_in_cmake_cache "OCV_DOWNLOAD_FFMPEG_HASH_3rdparty_ffmpeg_ffmpeg_version_cmake"
+#do_copy "boostdesc_bgm.i" "0ea90e7a8f3f7876d450e4149c97c74f" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm.i" "D:/Study/Python/Lib/opencv-4.5.0/build/downloads/xfeatures2d"
+#missing "D:/Study/Python/Lib/opencv-4.5.0/build/downloads/xfeatures2d/boostdesc_bgm.i"
+#cmake_download "D:/Study/Python/Lib/opencv-4.5.0/.cache/xfeatures2d/boostdesc/0ea90e7a8f3f7876d450e4149c97c74f-boostdesc_bgm.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm.i"
+#try 1
+# timeout on name lookup is not supported
+#   Trying 185.199.108.133:443...
+# Connected to raw.githubusercontent.com (185.199.108.133) port 443 (#0)
+# schannel: disabled automatic use of client certificate
+# ALPN: offers h2
+# ALPN: offers http/1.1
+# ALPN: server accepted h2
+# Using HTTP2, server supports multiplexing
+# Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+# h2h3 [:method: GET]
+# h2h3 [:path: /opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm.i]
+# h2h3 [:scheme: https]
+# h2h3 [:authority: raw.githubusercontent.com]
+# h2h3 [user-agent: curl/7.86.0]
+# h2h3 [accept: */*]
+# Using Stream ID: 1 (easy handle 0x27f17f32040)
+# GET /opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm.i HTTP/2
+# Host: raw.githubusercontent.com
+# user-agent: curl/7.86.0
+# accept: */*
+# 
+# HTTP/2 200 
+# cache-control: max-age=300
+# content-security-policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+# content-type: text/plain; charset=utf-8
+# etag: "f4d39876234931f4cd9f46e84414d4b9c69717d391e989a93bb66948fb6c2512"
+# strict-transport-security: max-age=31536000
+# x-content-type-options: nosniff
+# x-frame-options: deny
+# x-xss-protection: 1; mode=block
+# x-github-request-id: 5B00:08F3:18C384:1D24DF:640BC849
+# accept-ranges: bytes
+# date: Sat, 11 Mar 2023 06:39:25 GMT
+# via: 1.1 varnish
+# x-served-by: cache-qpg1263-QPG
+# x-cache: HIT
+# x-cache-hits: 1
+# x-timer: S1678516765.244468,VS0,VE1
+# vary: Authorization,Accept-Encoding,Origin
+# access-control-allow-origin: *
+# x-fastly-request-id: 3113dbd7510a6d3571736b17f7eb1cd7f6d3a2f6
+# expires: Sat, 11 Mar 2023 06:44:25 GMT
+# source-age: 49
+# content-length: 14852
+# 
+# [2121 bytes data]
+# [7926 bytes data]
+# [4805 bytes data]
+# Connection #0 to host raw.githubusercontent.com left intact
+# 
+
+#check_md5 "D:/Study/Python/Lib/opencv-4.5.0/.cache/xfeatures2d/boostdesc/0ea90e7a8f3f7876d450e4149c97c74f-boostdesc_bgm.i"
+#copy "D:/Study/Python/Lib/opencv-4.5.0/build/downloads/xfeatures2d/boostdesc_bgm.i" "D:/Study/Python/Lib/opencv-4.5.0/.cache/xfeatures2d/boostdesc/0ea90e7a8f3f7876d450e4149c97c74f-boostdesc_bgm.i"
+#do_copy "boostdesc_bgm_bi.i" "232c966b13651bd0e46a1497b0852191" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm_bi.i" "D:/Study/Python/Lib/opencv-4.5.0/build/downloads/xfeatures2d"
+#missing "D:/Study/Python/Lib/opencv-4.5.0/build/downloads/xfeatures2d/boostdesc_bgm_bi.i"
+#cmake_download "D:/Study/Python/Lib/opencv-4.5.0/.cache/xfeatures2d/boostdesc/232c966b13651bd0e46a1497b0852191-boostdesc_bgm_bi.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm_bi.i"
+#try 1
+# timeout on name lookup is not supported
+#   Trying 185.199.108.133:443...
+# Connected to raw.githubusercontent.com (185.199.108.133) port 443 (#0)
+# schannel: disabled automatic use of client certificate
+# ALPN: offers h2
+# ALPN: offers http/1.1
+# ALPN: server accepted h2
+# Using HTTP2, server supports multiplexing
+# Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+# h2h3 [:method: GET]
+# h2h3 [:path: /opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm_bi.i]
+# h2h3 [:scheme: https]
+# h2h3 [:authority: raw.githubusercontent.com]
+# h2h3 [user-agent: curl/7.86.0]
+# h2h3 [accept: */*]
+# Using Stream ID: 1 (easy handle 0x27f184780f0)
+# GET /opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm_bi.i HTTP/2
+# Host: raw.githubusercontent.com
+# user-agent: curl/7.86.0
+# accept: */*
+# 
+# HTTP/2 200 
+# cache-control: max-age=86400
+# content-security-policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+# content-type: text/plain; charset=utf-8
+# etag: "63c9f081e31c588e64e041aa89dc8f400709d026f201608ac8e7266545cc7baa"
+# strict-transport-security: max-age=31536000
+# x-content-type-options: nosniff
+# x-frame-options: deny
+# x-xss-protection: 1; mode=block
+# x-github-request-id: CF5E:4977:17B2A1:1D6735:63F7E264
+# accept-ranges: bytes
+# date: Sat, 11 Mar 2023 06:39:25 GMT
+# via: 1.1 varnish
+# x-served-by: cache-qpg1250-QPG
+# x-cache: HIT
+# x-cache-hits: 1
+# x-timer: S1678516766.662930,VS0,VE1
+# vary: Authorization,Accept-Encoding,Origin
+# access-control-allow-origin: *
+# x-fastly-request-id: e605f2b5479a5c283e6e8eb3c18162fb91445730
+# expires: Sat, 11 Mar 2023 06:44:25 GMT
+# source-age: 48
+# content-length: 14864
+# 
+# [2121 bytes data]
+# [2642 bytes data]
+# [2642 bytes data]
+# [2642 bytes data]
+# [2642 bytes data]
+# [2175 bytes data]
+# Connection #0 to host raw.githubusercontent.com left intact
+# 
+
+#check_md5 "D:/Study/Python/Lib/opencv-4.5.0/.cache/xfeatures2d/boostdesc/232c966b13651bd0e46a1497b0852191-boostdesc_bgm_bi.i"
+#copy "D:/Study/Python/Lib/opencv-4.5.0/build/downloads/xfeatures2d/boostdesc_bgm_bi.i" "D:/Study/Python/Lib/opencv-4.5.0/.cache/xfeatures2d/boostdesc/232c966b13651bd0e46a1497b0852191-boostdesc_bgm_bi.i"
+#do_copy "boostdesc_bgm_hd.i" "324426a24fa56ad9c5b8e3e0b3e5303e" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm_hd.i" "D:/Study/Python/Lib/opencv-4.5.0/build/downloads/xfeatures2d"
+#missing "D:/Study/Python/Lib/opencv-4.5.0/build/downloads/xfeatures2d/boostdesc_bgm_hd.i"
+#cmake_download "D:/Study/Python/Lib/opencv-4.5.0/.cache/xfeatures2d/boostdesc/324426a24fa56ad9c5b8e3e0b3e5303e-boostdesc_bgm_hd.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm_hd.i"
+#try 1
+# timeout on name lookup is not supported
+#   Trying 185.199.108.133:443...
+# Connected to raw.githubusercontent.com (185.199.108.133) port 443 (#0)
+# schannel: disabled automatic use of client certificate
+# ALPN: offers h2
+# ALPN: offers http/1.1
+# ALPN: server accepted h2
+# Using HTTP2, server supports multiplexing
+# Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+# h2h3 [:method: GET]
+# h2h3 [:path: /opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm_hd.i]
+# h2h3 [:scheme: https]
+# h2h3 [:authority: raw.githubusercontent.com]
+# h2h3 [user-agent: curl/7.86.0]
+# h2h3 [accept: */*]
+# Using Stream ID: 1 (easy handle 0x27f17789c40)
+# GET /opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_bgm_hd.i HTTP/2
+# Host: raw.githubusercontent.com
+# user-agent: curl/7.86.0
+# accept: */*
+# 
+# HTTP/2 200 
+# cache-control: max-age=300
+# content-security-policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+# content-type: text/plain; charset=utf-8
+# etag: "3f65138873460a77b397eba6720e2a19ac426dd8bc715e1eb0b718904ee672cd"
+# strict-transport-security: max-age=31536000
+# x-content-type-options: nosniff
+# x-frame-options: deny
+# x-xss-protection: 1; mode=block
+# x-github-request-id: 1C2A:08C0:18984C:1CF9B6:640BC84A
+# accept-ranges: bytes
+# date: Sat, 11 Mar 2023 06:39:26 GMT
+# via: 1.1 varnish
+# x-served-by: cache-qpg1259-QPG
+# x-cache: HIT
+# x-cache-hits: 1
+# x-timer: S1678516766.056394,VS0,VE1
+# vary: Authorization,Accept-Encoding,Origin
+# access-control-allow-origin: *
+# x-fastly-request-id: c5f0ff3fc6e818a4d839fd8565bddad304a8b95e
+# expires: Sat, 11 Mar 2023 06:44:26 GMT
+# source-age: 48
+# content-length: 7832
+# 
+# [4765 bytes data]
+# [3067 bytes data]
+# Connection #0 to host raw.githubusercontent.com left intact
+# 
+
+#check_md5 "D:/Study/Python/Lib/opencv-4.5.0/.cache/xfeatures2d/boostdesc/324426a24fa56ad9c5b8e3e0b3e5303e-boostdesc_bgm_hd.i"
+#copy "D:/Study/Python/Lib/opencv-4.5.0/build/downloads/xfeatures2d/boostdesc_bgm_hd.i" "D:/Study/Python/Lib/opencv-4.5.0/.cache/xfeatures2d/boostdesc/324426a24fa56ad9c5b8e3e0b3e5303e-boostdesc_bgm_hd.i"
+#do_copy "boostdesc_binboost_064.i" "202e1b3e9fec871b04da31f7f016679f" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_binboost_064.i" "D:/Study/Python/Lib/opencv-4.5.0/build/downloads/xfeatures2d"
+#missing "D:/Study/Python/Lib/opencv-4.5.0/build/downloads/xfeatures2d/boostdesc_binboost_064.i"
+#cmake_download "D:/Study/Python/Lib/opencv-4.5.0/.cache/xfeatures2d/boostdesc/202e1b3e9fec871b04da31f7f016679f-boostdesc_binboost_064.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_binboost_064.i"
+#try 1
+# timeout on name lookup is not supported
+#   Trying 185.199.108.133:443...
+# Connected to raw.githubusercontent.com (185.199.108.133) port 443 (#0)
+# schannel: disabled automatic use of client certificate
+# ALPN: offers h2
+# ALPN: offers http/1.1
+# ALPN: server accepted h2
+# Using HTTP2, server supports multiplexing
+# Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+# h2h3 [:method: GET]
+# h2h3 [:path: /opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_binboost_064.i]
+# h2h3 [:scheme: https]
+# h2h3 [:authority: raw.githubusercontent.com]
+# h2h3 [user-agent: curl/7.86.0]
+# h2h3 [accept: */*]
+# Using Stream ID: 1 (easy handle 0x27f17789c40)
+# GET /opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_binboost_064.i HTTP/2
+# Host: raw.githubusercontent.com
+# user-agent: curl/7.86.0
+# accept: */*
+# 
+# HTTP/2 200 
+# cache-control: max-age=300
+# content-security-policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+# content-type: text/plain; charset=utf-8
+# etag: "bae205040ca21f82923433b5f0f55997208065bde7c22407eaad6b80d7c54a63"
+# strict-transport-security: max-age=31536000
+# x-content-type-options: nosniff
+# x-frame-options: deny
+# x-xss-protection: 1; mode=block
+# x-github-request-id: 6A20:08C8:1CE743:222E7B:640C1500
+# accept-ranges: bytes
+# date: Sat, 11 Mar 2023 06:39:26 GMT
+# via: 1.1 varnish
+# x-served-by: cache-qpg1276-QPG
+# x-cache: HIT
+# x-cache-hits: 1
+# x-timer: S1678516766.419210,VS0,VE1
+# vary: Authorization,Accept-Encoding,Origin
+# access-control-allow-origin: *
+# x-fastly-request-id: d6f3f085fb4b96e3992e2cafd62fd96ae7be4ca4
+# expires: Sat, 11 Mar 2023 06:44:26 GMT
+# source-age: 48
+# content-length: 138093
+# 
+# [2633 bytes data]
+# [2642 bytes data]
+# [7926 bytes data]
+# [2642 bytes data]
+# [2633 bytes data]
+# [2642 bytes data]
+# [2642 bytes data]
+# [2642 bytes data]
+# [2642 bytes data]
+# [2642 bytes data]
+# [2633 bytes data]
+# [1321 bytes data]
+# [2642 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [10879 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [16366 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# [7021 bytes data]
+# Connection #0 to host raw.githubusercontent.com left intact
+# 
+
+#check_md5 "D:/Study/Python/Lib/opencv-4.5.0/.cache/xfeatures2d/boostdesc/202e1b3e9fec871b04da31f7f016679f-boostdesc_binboost_064.i"
+#copy "D:/Study/Python/Lib/opencv-4.5.0/build/downloads/xfeatures2d/boostdesc_binboost_064.i" "D:/Study/Python/Lib/opencv-4.5.0/.cache/xfeatures2d/boostdesc/202e1b3e9fec871b04da31f7f016679f-boostdesc_binboost_064.i"
+#do_copy "boostdesc_binboost_128.i" "98ea99d399965c03d555cef3ea502a0b" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_binboost_128.i" "D:/Study/Python/Lib/opencv-4.5.0/build/downloads/xfeatures2d"
+#missing "D:/Study/Python/Lib/opencv-4.5.0/build/downloads/xfeatures2d/boostdesc_binboost_128.i"
+#cmake_download "D:/Study/Python/Lib/opencv-4.5.0/.cache/xfeatures2d/boostdesc/98ea99d399965c03d555cef3ea502a0b-boostdesc_binboost_128.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_binboost_128.i"
+#try 1
+# timeout on name lookup is not supported
+#   Trying 185.199.108.133:443...
+# Connected to raw.githubusercontent.com (185.199.108.133) port 443 (#0)
+# schannel: disabled automatic use of client certificate
+# ALPN: offers h2
+# ALPN: offers http/1.1
+# ALPN: server accepted h2
+# Using HTTP2, server supports multiplexing
+# Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+# h2h3 [:method: GET]
+# h2h3 [:path: /opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_binboost_128.i]
+# h2h3 [:scheme: https]
+# h2h3 [:authority: raw.githubusercontent.com]
+# h2h3 [user-agent: curl/7.86.0]
+# h2h3 [accept: */*]
+# Using Stream ID: 1 (easy handle 0x27f17789c40)
+# GET /opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_binboost_128.i HTTP/2
+# Host: raw.githubusercontent.com
+# user-agent: curl/7.86.0
+# accept: */*
+# 
+# HTTP/2 200 
+# cache-control: max-age=86400
+# content-security-policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+# content-type: text/plain; charset=utf-8
+# etag: "54f58724d17670b7702ef9695e137286b17516af293a9761ea422d0d63ef750c"
+# strict-transport-security: max-age=31536000
+# x-content-type-options: nosniff
+# x-frame-options: deny
+# x-xss-protection: 1; mode=block
+# x-github-request-id: C48C:5835:22699:A9CEC:63F65BF3
+# accept-ranges: bytes
+# date: Sat, 11 Mar 2023 06:39:26 GMT
+# via: 1.1 varnish
+# x-served-by: cache-qpg1227-QPG
+# x-cache: HIT
+# x-cache-hits: 1
+# x-timer: S1678516767.948242,VS0,VE4
+# vary: Authorization,Accept-Encoding,Origin
+# access-control-allow-origin: *
+# x-fastly-request-id: 06de08f00a027acf69254eaf26ecc1d0b115895d
+# expires: Sat, 11 Mar 2023 06:44:26 GMT
+# source-age: 48
+# content-length: 275322
+# 
+# [15532 bytes data]
+# [2633 bytes data]
+# [5284 bytes data]
+# [2642 bytes data]
+# [5284 bytes data]
+# [2633 bytes data]
+# [3963 bytes data]
+# [2633 bytes data]
+# [2633 bytes data]
+# [2642 bytes data]
+# [2642 bytes data]
+# [2642 bytes data]
+# [2642 bytes data]
+# [5275 bytes data]
+# [2642 bytes data]
+# [5284 bytes data]
+# [5284 bytes data]
+# [2633 bytes data]
+# [2642 bytes data]
+# schannel: failed to decrypt data, need more data
+# [3503 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# [14057 bytes data]
+# Connection #0 to host raw.githubusercontent.com left intact
+# 
+
+#check_md5 "D:/Study/Python/Lib/opencv-4.5.0/.cache/xfeatures2d/boostdesc/98ea99d399965c03d555cef3ea502a0b-boostdesc_binboost_128.i"
+#copy "D:/Study/Python/Lib/opencv-4.5.0/build/downloads/xfeatures2d/boostdesc_binboost_128.i" "D:/Study/Python/Lib/opencv-4.5.0/.cache/xfeatures2d/boostdesc/98ea99d399965c03d555cef3ea502a0b-boostdesc_binboost_128.i"
+#do_copy "boostdesc_binboost_256.i" "e6dcfa9f647779eb1ce446a8d759b6ea" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_binboost_256.i" "D:/Study/Python/Lib/opencv-4.5.0/build/downloads/xfeatures2d"
+#missing "D:/Study/Python/Lib/opencv-4.5.0/build/downloads/xfeatures2d/boostdesc_binboost_256.i"
+#cmake_download "D:/Study/Python/Lib/opencv-4.5.0/.cache/xfeatures2d/boostdesc/e6dcfa9f647779eb1ce446a8d759b6ea-boostdesc_binboost_256.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_binboost_256.i"
+#try 1
+# timeout on name lookup is not supported
+#   Trying 185.199.108.133:443...
+# Connected to raw.githubusercontent.com (185.199.108.133) port 443 (#0)
+# schannel: disabled automatic use of client certificate
+# ALPN: offers h2
+# ALPN: offers http/1.1
+# ALPN: server accepted h2
+# Using HTTP2, server supports multiplexing
+# Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+# h2h3 [:method: GET]
+# h2h3 [:path: /opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_binboost_256.i]
+# h2h3 [:scheme: https]
+# h2h3 [:authority: raw.githubusercontent.com]
+# h2h3 [user-agent: curl/7.86.0]
+# h2h3 [accept: */*]
+# Using Stream ID: 1 (easy handle 0x27f17789c40)
+# GET /opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_binboost_256.i HTTP/2
+# Host: raw.githubusercontent.com
+# user-agent: curl/7.86.0
+# accept: */*
+# 
+# HTTP/2 200 
+# cache-control: max-age=300
+# content-security-policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+# content-type: text/plain; charset=utf-8
+# etag: "5170441d0b803cfdb9971e7164637d566ed19f3e692c9d40ecc41bfad6b9cc56"
+# strict-transport-security: max-age=31536000
+# x-content-type-options: nosniff
+# x-frame-options: deny
+# x-xss-protection: 1; mode=block
+# x-github-request-id: 7D06:08EF:1DDC73:2345C7:640C2066
+# accept-ranges: bytes
+# date: Sat, 11 Mar 2023 06:39:27 GMT
+# via: 1.1 varnish
+# x-served-by: cache-qpg1231-QPG
+# x-cache: HIT
+# x-cache-hits: 1
+# x-timer: S1678516768.606366,VS0,VE1
+# vary: Authorization,Accept-Encoding,Origin
+# access-control-allow-origin: *
+# x-fastly-request-id: 9985fbd9074b6009287b8c2779f3622670a1df66
+# expires: Sat, 11 Mar 2023 06:44:27 GMT
+# source-age: 48
+# content-length: 549754
+# 
+# [4763 bytes data]
+# [7926 bytes data]
+# [2642 bytes data]
+# [201 bytes data]
+# [2633 bytes data]
+# [2642 bytes data]
+# [5284 bytes data]
+# [2642 bytes data]
+# [5275 bytes data]
+# [3963 bytes data]
+# [2633 bytes data]
+# [2633 bytes data]
+# [2642 bytes data]
+# [2642 bytes data]
+# [7917 bytes data]
+# [2642 bytes data]
+# [2642 bytes data]
+# [2642 bytes data]
+# [2642 bytes data]
+# [2642 bytes data]
+# [11420 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [36 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [9647 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [9 bytes data]
+# [16357 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# [323 bytes data]
+# Connection #0 to host raw.githubusercontent.com left intact
+# 
+
+#check_md5 "D:/Study/Python/Lib/opencv-4.5.0/.cache/xfeatures2d/boostdesc/e6dcfa9f647779eb1ce446a8d759b6ea-boostdesc_binboost_256.i"
+#copy "D:/Study/Python/Lib/opencv-4.5.0/build/downloads/xfeatures2d/boostdesc_binboost_256.i" "D:/Study/Python/Lib/opencv-4.5.0/.cache/xfeatures2d/boostdesc/e6dcfa9f647779eb1ce446a8d759b6ea-boostdesc_binboost_256.i"
+#do_copy "boostdesc_lbgm.i" "0ae0675534aa318d9668f2a179c2a052" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_lbgm.i" "D:/Study/Python/Lib/opencv-4.5.0/build/downloads/xfeatures2d"
+#missing "D:/Study/Python/Lib/opencv-4.5.0/build/downloads/xfeatures2d/boostdesc_lbgm.i"
+#cmake_download "D:/Study/Python/Lib/opencv-4.5.0/.cache/xfeatures2d/boostdesc/0ae0675534aa318d9668f2a179c2a052-boostdesc_lbgm.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_lbgm.i"
+#try 1
+# timeout on name lookup is not supported
+#   Trying 185.199.108.133:443...
+# Connected to raw.githubusercontent.com (185.199.108.133) port 443 (#0)
+# schannel: disabled automatic use of client certificate
+# ALPN: offers h2
+# ALPN: offers http/1.1
+# ALPN: server accepted h2
+# Using HTTP2, server supports multiplexing
+# Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+# h2h3 [:method: GET]
+# h2h3 [:path: /opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_lbgm.i]
+# h2h3 [:scheme: https]
+# h2h3 [:authority: raw.githubusercontent.com]
+# h2h3 [user-agent: curl/7.86.0]
+# h2h3 [accept: */*]
+# Using Stream ID: 1 (easy handle 0x27f17789c40)
+# GET /opencv/opencv_3rdparty/34e4206aef44d50e6bbcd0ab06354b52e7466d26/boostdesc_lbgm.i HTTP/2
+# Host: raw.githubusercontent.com
+# user-agent: curl/7.86.0
+# accept: */*
+# 
+# HTTP/2 200 
+# cache-control: max-age=86400
+# content-security-policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+# content-type: text/plain; charset=utf-8
+# etag: "f3d4a74705b7df4677383f120dc191d41412bcc2a9d68182483d1fcaa8c6f3ee"
+# strict-transport-security: max-age=31536000
+# x-content-type-options: nosniff
+# x-frame-options: deny
+# x-xss-protection: 1; mode=block
+# x-github-request-id: 33FC:0B33:5D819:74207:63F65BF6
+# accept-ranges: bytes
+# date: Sat, 11 Mar 2023 06:39:28 GMT
+# via: 1.1 varnish
+# x-served-by: cache-qpg1283-QPG
+# x-cache: HIT
+# x-cache-hits: 1
+# x-timer: S1678516769.625199,VS0,VE2
+# vary: Authorization,Accept-Encoding,Origin
+# access-control-allow-origin: *
+# x-fastly-request-id: 54ab06b0a54e33c093f0208441ffac23cdda7b05
+# expires: Sat, 11 Mar 2023 06:44:28 GMT
+# source-age: 48
+# content-length: 426280
+# 
+# [2121 bytes data]
+# [5284 bytes data]
+# [1321 bytes data]
+# [2642 bytes data]
+# [2642 bytes data]
+# [1321 bytes data]
+# [2834 bytes data]
+# [2642 bytes data]
+# [5284 bytes data]
+# [5284 bytes data]
+# [2633 bytes data]
+# [3963 bytes data]
+# [2633 bytes data]
+# [5275 bytes data]
+# [5284 bytes data]
+# [2642 bytes data]
+# [2642 bytes data]
+# [2633 bytes data]
+# [7917 bytes data]
+# [5275 bytes data]
+# [7926 bytes data]
+# schannel: failed to decrypt data, need more data
+# [870 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [9647 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [7921 bytes data]
+# Connection #0 to host raw.githubusercontent.com left intact
+# 
+
+#check_md5 "D:/Study/Python/Lib/opencv-4.5.0/.cache/xfeatures2d/boostdesc/0ae0675534aa318d9668f2a179c2a052-boostdesc_lbgm.i"
+#copy "D:/Study/Python/Lib/opencv-4.5.0/build/downloads/xfeatures2d/boostdesc_lbgm.i" "D:/Study/Python/Lib/opencv-4.5.0/.cache/xfeatures2d/boostdesc/0ae0675534aa318d9668f2a179c2a052-boostdesc_lbgm.i"
+#do_copy "vgg_generated_48.i" "e8d0dcd54d1bcfdc29203d011a797179" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_48.i" "D:/Study/Python/Lib/opencv-4.5.0/build/downloads/xfeatures2d"
+#missing "D:/Study/Python/Lib/opencv-4.5.0/build/downloads/xfeatures2d/vgg_generated_48.i"
+#cmake_download "D:/Study/Python/Lib/opencv-4.5.0/.cache/xfeatures2d/vgg/e8d0dcd54d1bcfdc29203d011a797179-vgg_generated_48.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_48.i"
+#try 1
+# timeout on name lookup is not supported
+#   Trying 185.199.108.133:443...
+# Connected to raw.githubusercontent.com (185.199.108.133) port 443 (#0)
+# schannel: disabled automatic use of client certificate
+# ALPN: offers h2
+# ALPN: offers http/1.1
+# ALPN: server accepted h2
+# Using HTTP2, server supports multiplexing
+# Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+# h2h3 [:method: GET]
+# h2h3 [:path: /opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_48.i]
+# h2h3 [:scheme: https]
+# h2h3 [:authority: raw.githubusercontent.com]
+# h2h3 [user-agent: curl/7.86.0]
+# h2h3 [accept: */*]
+# Using Stream ID: 1 (easy handle 0x27f17789c40)
+# GET /opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_48.i HTTP/2
+# Host: raw.githubusercontent.com
+# user-agent: curl/7.86.0
+# accept: */*
+# 
+# HTTP/2 200 
+# cache-control: max-age=86400
+# content-security-policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+# content-type: text/plain; charset=utf-8
+# etag: "9712a2b00f558a6635e1c65f92e7b796fa4ac9e7824a0e4e38081647489047d8"
+# strict-transport-security: max-age=31536000
+# x-content-type-options: nosniff
+# x-frame-options: deny
+# x-xss-protection: 1; mode=block
+# x-github-request-id: F4C2:0763:1D1C41:2592A4:63F65BF7
+# accept-ranges: bytes
+# date: Sat, 11 Mar 2023 06:39:29 GMT
+# via: 1.1 varnish
+# x-served-by: cache-qpg1240-QPG
+# x-cache: HIT
+# x-cache-hits: 1
+# x-timer: S1678516769.464891,VS0,VE1
+# vary: Authorization,Accept-Encoding,Origin
+# access-control-allow-origin: *
+# x-fastly-request-id: 80b1cfb9064d897d7ad9be301349aaa2c03d867e
+# expires: Sat, 11 Mar 2023 06:44:29 GMT
+# source-age: 48
+# content-length: 773330
+# 
+# [2119 bytes data]
+# [2642 bytes data]
+# [7926 bytes data]
+# [2843 bytes data]
+# [1312 bytes data]
+# [3963 bytes data]
+# [2642 bytes data]
+# [5284 bytes data]
+# [2642 bytes data]
+# [2633 bytes data]
+# [2642 bytes data]
+# [2642 bytes data]
+# [2633 bytes data]
+# [5284 bytes data]
+# [2642 bytes data]
+# [7917 bytes data]
+# [7926 bytes data]
+# [10559 bytes data]
+# [2642 bytes data]
+# schannel: failed to decrypt data, need more data
+# [2173 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [3313 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [18 bytes data]
+# [850 bytes data]
+# Connection #0 to host raw.githubusercontent.com left intact
+# 
+
+#check_md5 "D:/Study/Python/Lib/opencv-4.5.0/.cache/xfeatures2d/vgg/e8d0dcd54d1bcfdc29203d011a797179-vgg_generated_48.i"
+#copy "D:/Study/Python/Lib/opencv-4.5.0/build/downloads/xfeatures2d/vgg_generated_48.i" "D:/Study/Python/Lib/opencv-4.5.0/.cache/xfeatures2d/vgg/e8d0dcd54d1bcfdc29203d011a797179-vgg_generated_48.i"
+#do_copy "vgg_generated_64.i" "7126a5d9a8884ebca5aea5d63d677225" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_64.i" "D:/Study/Python/Lib/opencv-4.5.0/build/downloads/xfeatures2d"
+#missing "D:/Study/Python/Lib/opencv-4.5.0/build/downloads/xfeatures2d/vgg_generated_64.i"
+#cmake_download "D:/Study/Python/Lib/opencv-4.5.0/.cache/xfeatures2d/vgg/7126a5d9a8884ebca5aea5d63d677225-vgg_generated_64.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_64.i"
+#try 1
+# timeout on name lookup is not supported
+#   Trying 185.199.108.133:443...
+# Connected to raw.githubusercontent.com (185.199.108.133) port 443 (#0)
+# schannel: disabled automatic use of client certificate
+# ALPN: offers h2
+# ALPN: offers http/1.1
+# ALPN: server accepted h2
+# Using HTTP2, server supports multiplexing
+# Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+# h2h3 [:method: GET]
+# h2h3 [:path: /opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_64.i]
+# h2h3 [:scheme: https]
+# h2h3 [:authority: raw.githubusercontent.com]
+# h2h3 [user-agent: curl/7.86.0]
+# h2h3 [accept: */*]
+# Using Stream ID: 1 (easy handle 0x27f17789c40)
+# GET /opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_64.i HTTP/2
+# Host: raw.githubusercontent.com
+# user-agent: curl/7.86.0
+# accept: */*
+# 
+# HTTP/2 200 
+# cache-control: max-age=86400
+# content-security-policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+# content-type: text/plain; charset=utf-8
+# etag: "6080244e3d6fdff679f450da04af4a0d32d5bdaf3bc30d3ca432ed7e99d0caf5"
+# strict-transport-security: max-age=31536000
+# x-content-type-options: nosniff
+# x-frame-options: deny
+# x-xss-protection: 1; mode=block
+# x-github-request-id: E330:4EDD:A44F5:C2821:63F65BF9
+# accept-ranges: bytes
+# date: Sat, 11 Mar 2023 06:39:30 GMT
+# via: 1.1 varnish
+# x-served-by: cache-qpg1241-QPG
+# x-cache: HIT
+# x-cache-hits: 1
+# x-timer: S1678516771.698108,VS0,VE2
+# vary: Authorization,Accept-Encoding,Origin
+# access-control-allow-origin: *
+# x-fastly-request-id: f95d301313cd5199217efba98d3089b9db0f3cfb
+# expires: Sat, 11 Mar 2023 06:44:30 GMT
+# source-age: 48
+# content-length: 915012
+# 
+# [1312 bytes data]
+# [2642 bytes data]
+# [6605 bytes data]
+# [2642 bytes data]
+# [5275 bytes data]
+# [2642 bytes data]
+# [13201 bytes data]
+# [1321 bytes data]
+# [1321 bytes data]
+# [1321 bytes data]
+# [1312 bytes data]
+# [3954 bytes data]
+# [2642 bytes data]
+# [2642 bytes data]
+# [3963 bytes data]
+# [5275 bytes data]
+# [2642 bytes data]
+# [1321 bytes data]
+# [3503 bytes data]
+# [6596 bytes data]
+# [5284 bytes data]
+# [2642 bytes data]
+# [2633 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [15631 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [11291 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# [2628 bytes data]
+# Connection #0 to host raw.githubusercontent.com left intact
+# 
+
+#check_md5 "D:/Study/Python/Lib/opencv-4.5.0/.cache/xfeatures2d/vgg/7126a5d9a8884ebca5aea5d63d677225-vgg_generated_64.i"
+#copy "D:/Study/Python/Lib/opencv-4.5.0/build/downloads/xfeatures2d/vgg_generated_64.i" "D:/Study/Python/Lib/opencv-4.5.0/.cache/xfeatures2d/vgg/7126a5d9a8884ebca5aea5d63d677225-vgg_generated_64.i"
+#do_copy "vgg_generated_80.i" "7cd47228edec52b6d82f46511af325c5" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_80.i" "D:/Study/Python/Lib/opencv-4.5.0/build/downloads/xfeatures2d"
+#missing "D:/Study/Python/Lib/opencv-4.5.0/build/downloads/xfeatures2d/vgg_generated_80.i"
+#cmake_download "D:/Study/Python/Lib/opencv-4.5.0/.cache/xfeatures2d/vgg/7cd47228edec52b6d82f46511af325c5-vgg_generated_80.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_80.i"
+#try 1
+# timeout on name lookup is not supported
+#   Trying 185.199.108.133:443...
+# Connected to raw.githubusercontent.com (185.199.108.133) port 443 (#0)
+# schannel: disabled automatic use of client certificate
+# ALPN: offers h2
+# ALPN: offers http/1.1
+# ALPN: server accepted h2
+# Using HTTP2, server supports multiplexing
+# Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+# h2h3 [:method: GET]
+# h2h3 [:path: /opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_80.i]
+# h2h3 [:scheme: https]
+# h2h3 [:authority: raw.githubusercontent.com]
+# h2h3 [user-agent: curl/7.86.0]
+# h2h3 [accept: */*]
+# Using Stream ID: 1 (easy handle 0x27f17789c40)
+# GET /opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_80.i HTTP/2
+# Host: raw.githubusercontent.com
+# user-agent: curl/7.86.0
+# accept: */*
+# 
+# HTTP/2 200 
+# cache-control: max-age=86400
+# content-security-policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+# content-type: text/plain; charset=utf-8
+# etag: "41b934aa1655bb7609e81243de0568fac0682d633a52dd881ef7ccd5a80fc425"
+# strict-transport-security: max-age=31536000
+# x-content-type-options: nosniff
+# x-frame-options: deny
+# x-xss-protection: 1; mode=block
+# x-github-request-id: E330:4EDD:A4505:C2837:63F65BFA
+# accept-ranges: bytes
+# date: Sat, 11 Mar 2023 06:39:32 GMT
+# via: 1.1 varnish
+# x-served-by: cache-qpg1283-QPG
+# x-cache: HIT
+# x-cache-hits: 1
+# x-timer: S1678516772.182565,VS0,VE3
+# vary: Authorization,Accept-Encoding,Origin
+# access-control-allow-origin: *
+# x-fastly-request-id: d8d52aa4827cc3610a6ba7f26af7952de44e1688
+# expires: Sat, 11 Mar 2023 06:44:32 GMT
+# source-age: 48
+# content-length: 1012932
+# 
+# [5275 bytes data]
+# [2642 bytes data]
+# [2642 bytes data]
+# [5284 bytes data]
+# [7917 bytes data]
+# [2642 bytes data]
+# [2642 bytes data]
+# [5275 bytes data]
+# [1321 bytes data]
+# [2642 bytes data]
+# [2633 bytes data]
+# [5275 bytes data]
+# [3963 bytes data]
+# [3963 bytes data]
+# [7917 bytes data]
+# [3503 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [18 bytes data]
+# [11264 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [18 bytes data]
+# [16348 bytes data]
+# schannel: failed to decrypt data, need more data
+# [36 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [9 bytes data]
+# [2244 bytes data]
+# Connection #0 to host raw.githubusercontent.com left intact
+# 
+
+#check_md5 "D:/Study/Python/Lib/opencv-4.5.0/.cache/xfeatures2d/vgg/7cd47228edec52b6d82f46511af325c5-vgg_generated_80.i"
+#copy "D:/Study/Python/Lib/opencv-4.5.0/build/downloads/xfeatures2d/vgg_generated_80.i" "D:/Study/Python/Lib/opencv-4.5.0/.cache/xfeatures2d/vgg/7cd47228edec52b6d82f46511af325c5-vgg_generated_80.i"
+#do_copy "vgg_generated_120.i" "151805e03568c9f490a5e3a872777b75" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_120.i" "D:/Study/Python/Lib/opencv-4.5.0/build/downloads/xfeatures2d"
+#missing "D:/Study/Python/Lib/opencv-4.5.0/build/downloads/xfeatures2d/vgg_generated_120.i"
+#cmake_download "D:/Study/Python/Lib/opencv-4.5.0/.cache/xfeatures2d/vgg/151805e03568c9f490a5e3a872777b75-vgg_generated_120.i" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_120.i"
+#try 1
+# timeout on name lookup is not supported
+#   Trying 185.199.108.133:443...
+# Connected to raw.githubusercontent.com (185.199.108.133) port 443 (#0)
+# schannel: disabled automatic use of client certificate
+# ALPN: offers h2
+# ALPN: offers http/1.1
+# ALPN: server accepted h2
+# Using HTTP2, server supports multiplexing
+# Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+# h2h3 [:method: GET]
+# h2h3 [:path: /opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_120.i]
+# h2h3 [:scheme: https]
+# h2h3 [:authority: raw.githubusercontent.com]
+# h2h3 [user-agent: curl/7.86.0]
+# h2h3 [accept: */*]
+# Using Stream ID: 1 (easy handle 0x27f17789c40)
+# GET /opencv/opencv_3rdparty/fccf7cd6a4b12079f73bbfb21745f9babcd4eb1d/vgg_generated_120.i HTTP/2
+# Host: raw.githubusercontent.com
+# user-agent: curl/7.86.0
+# accept: */*
+# 
+# HTTP/2 200 
+# cache-control: max-age=300
+# content-security-policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+# content-type: text/plain; charset=utf-8
+# etag: "0497dfb95e9b1f2612c03e3862e51b0b10de8cd899a78d2dc72d6103dae12799"
+# strict-transport-security: max-age=31536000
+# x-content-type-options: nosniff
+# x-frame-options: deny
+# x-xss-protection: 1; mode=block
+# x-github-request-id: 9680:093D:1E6517:23CE7B:640C2069
+# accept-ranges: bytes
+# date: Sat, 11 Mar 2023 06:39:33 GMT
+# via: 1.1 varnish
+# x-served-by: cache-qpg1280-QPG
+# x-cache: HIT
+# x-cache-hits: 1
+# x-timer: S1678516774.767266,VS0,VE2
+# vary: Authorization,Accept-Encoding,Origin
+# access-control-allow-origin: *
+# x-fastly-request-id: e1791e1743ab35f256a1b3cfb3990e539d020bd8
+# expires: Sat, 11 Mar 2023 06:44:33 GMT
+# source-age: 49
+# content-length: 1257733
+# 
+# [11367 bytes data]
+# [3963 bytes data]
+# [6797 bytes data]
+# [2642 bytes data]
+# [6605 bytes data]
+# [2633 bytes data]
+# [1321 bytes data]
+# [2642 bytes data]
+# [2633 bytes data]
+# [3954 bytes data]
+# [5284 bytes data]
+# [2642 bytes data]
+# [10559 bytes data]
+# schannel: failed to decrypt data, need more data
+# [11880 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [6145 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [9648 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [11291 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16375 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [16384 bytes data]
+# [27 bytes data]
+# schannel: failed to decrypt data, need more data
+# schannel: failed to decrypt data, need more data
+# [8901 bytes data]
+# Connection #0 to host raw.githubusercontent.com left intact
+# 
+
+#check_md5 "D:/Study/Python/Lib/opencv-4.5.0/.cache/xfeatures2d/vgg/151805e03568c9f490a5e3a872777b75-vgg_generated_120.i"
+#copy "D:/Study/Python/Lib/opencv-4.5.0/build/downloads/xfeatures2d/vgg_generated_120.i" "D:/Study/Python/Lib/opencv-4.5.0/.cache/xfeatures2d/vgg/151805e03568c9f490a5e3a872777b75-vgg_generated_120.i"
+#do_copy "face_landmark_model.dat" "7505c44ca4eb54b4ab1e4777cb96ac05" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/8afa57abc8229d611c4937165d20e2a2d9fc5a12/face_landmark_model.dat" "D:/Study/Python/Lib/opencv-4.5.0/build/testdata/cv/face/"
+#missing "D:/Study/Python/Lib/opencv-4.5.0/build/testdata/cv/face//face_landmark_model.dat"
+#cmake_download "D:/Study/Python/Lib/opencv-4.5.0/.cache/data/7505c44ca4eb54b4ab1e4777cb96ac05-face_landmark_model.dat" "https://raw.githubusercontent.com/opencv/opencv_3rdparty/8afa57abc8229d611c4937165d20e2a2d9fc5a12/face_landmark_model.dat"
+#try 1
+#check_md5 "D:/Study/Python/Lib/opencv-4.5.0/.cache/data/7505c44ca4eb54b4ab1e4777cb96ac05-face_landmark_model.dat"
+#copy "D:/Study/Python/Lib/opencv-4.5.0/build/testdata/cv/face//face_landmark_model.dat" "D:/Study/Python/Lib/opencv-4.5.0/.cache/data/7505c44ca4eb54b4ab1e4777cb96ac05-face_landmark_model.dat"
+#do_unpack "79c6cee80a2df9a196f20afd6b598a9810964c32.zip" "ca5acedee6cb45d0ec610a6732de5c15" "https://github.com/NVIDIA/NVIDIAOpticalFlowSDK/archive/79c6cee80a2df9a196f20afd6b598a9810964c32.zip" "D:/Study/Python/Lib/opencv-4.5.0/build/3rdparty/NVIDIAOpticalFlowSDK_1_0_Headers"
+#cmake_download "D:/Study/Python/Lib/opencv-4.5.0/.cache/nvidia_optical_flow/ca5acedee6cb45d0ec610a6732de5c15-79c6cee80a2df9a196f20afd6b598a9810964c32.zip" "https://github.com/NVIDIA/NVIDIAOpticalFlowSDK/archive/79c6cee80a2df9a196f20afd6b598a9810964c32.zip"
+#try 1
+# timeout on name lookup is not supported
+#   Trying 20.205.243.166:443...
+# Connected to github.com (20.205.243.166) port 443 (#0)
+# schannel: disabled automatic use of client certificate
+# ALPN: offers h2
+# ALPN: offers http/1.1
+# ALPN: server accepted h2
+# Using HTTP2, server supports multiplexing
+# Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+# h2h3 [:method: GET]
+# h2h3 [:path: /NVIDIA/NVIDIAOpticalFlowSDK/archive/79c6cee80a2df9a196f20afd6b598a9810964c32.zip]
+# h2h3 [:scheme: https]
+# h2h3 [:authority: github.com]
+# h2h3 [user-agent: curl/7.86.0]
+# h2h3 [accept: */*]
+# Using Stream ID: 1 (easy handle 0x27f1aacc750)
+# GET /NVIDIA/NVIDIAOpticalFlowSDK/archive/79c6cee80a2df9a196f20afd6b598a9810964c32.zip HTTP/2
+# Host: github.com
+# user-agent: curl/7.86.0
+# accept: */*
+# 
+# HTTP/2 302 
+# server: GitHub.com
+# date: Sat, 11 Mar 2023 06:40:52 GMT
+# content-type: text/html; charset=utf-8
+# vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+# location: https://codeload.github.com/NVIDIA/NVIDIAOpticalFlowSDK/zip/79c6cee80a2df9a196f20afd6b598a9810964c32
+# cache-control: max-age=0, private
+# strict-transport-security: max-age=31536000; includeSubdomains; preload
+# x-frame-options: deny
+# x-content-type-options: nosniff
+# x-xss-protection: 0
+# referrer-policy: no-referrer-when-downgrade
+# content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com productionresultssa0.blob.core.windows.net/ productionresultssa1.blob.core.windows.net/ productionresultssa2.blob.core.windows.net/ productionresultssa3.blob.core.windows.net/ productionresultssa4.blob.core.windows.net/ wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com objects-origin.githubusercontent.com secured-user-images.githubusercontent.com/ user-images.githubusercontent.com/ private-user-images.githubusercontent.com opengraph.githubassets.com github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/ private-user-images.githubusercontent.com; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+# content-length: 0
+# x-github-request-id: 5AD7:0A48:1747B89:18F3627:640C2273
+# 
+# [0 bytes data]
+# Connection #0 to host github.com left intact
+# Issue another request to this URL: 'https://codeload.github.com/NVIDIA/NVIDIAOpticalFlowSDK/zip/79c6cee80a2df9a196f20afd6b598a9810964c32'
+# timeout on name lookup is not supported
+#   Trying 20.205.243.165:443...
+# Connected to codeload.github.com (20.205.243.165) port 443 (#1)
+# schannel: disabled automatic use of client certificate
+# ALPN: offers h2
+# ALPN: offers http/1.1
+# ALPN: server accepted h2
+# Using HTTP2, server supports multiplexing
+# Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+# h2h3 [:method: GET]
+# h2h3 [:path: /NVIDIA/NVIDIAOpticalFlowSDK/zip/79c6cee80a2df9a196f20afd6b598a9810964c32]
+# h2h3 [:scheme: https]
+# h2h3 [:authority: codeload.github.com]
+# h2h3 [user-agent: curl/7.86.0]
+# h2h3 [accept: */*]
+# Using Stream ID: 1 (easy handle 0x27f1aacc750)
+# GET /NVIDIA/NVIDIAOpticalFlowSDK/zip/79c6cee80a2df9a196f20afd6b598a9810964c32 HTTP/2
+# Host: codeload.github.com
+# user-agent: curl/7.86.0
+# accept: */*
+# 
+# HTTP/2 200 
+# access-control-allow-origin: https://render.githubusercontent.com
+# content-disposition: attachment; filename=NVIDIAOpticalFlowSDK-79c6cee80a2df9a196f20afd6b598a9810964c32.zip
+# content-security-policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+# content-type: application/zip
+# etag: "28e95d9be7695ac58d1075ce557fcf90f72e9b270a1a8d9d2ec6f52bb498bcbd"
+# strict-transport-security: max-age=31536000
+# vary: Authorization,Accept-Encoding,Origin
+# x-content-type-options: nosniff
+# x-frame-options: deny
+# x-xss-protection: 1; mode=block
+# date: Sat, 11 Mar 2023 06:40:52 GMT
+# x-github-request-id: 92C9:0F91:251D1:5F3FC:640C2274
+# 
+# [2205 bytes data]
+# [1235 bytes data]
+# schannel: failed to decrypt data, need more data
+# [1361 bytes data]
+# schannel: failed to decrypt data, need more data
+# [2728 bytes data]
+# [2272 bytes data]
+# Connection #1 to host codeload.github.com left intact
+# 
+
+#check_md5 "D:/Study/Python/Lib/opencv-4.5.0/.cache/nvidia_optical_flow/ca5acedee6cb45d0ec610a6732de5c15-79c6cee80a2df9a196f20afd6b598a9810964c32.zip"
+#mkdir "D:/Study/Python/Lib/opencv-4.5.0/build/3rdparty/NVIDIAOpticalFlowSDK_1_0_Headers"
+#unpack "D:/Study/Python/Lib/opencv-4.5.0/build/3rdparty/NVIDIAOpticalFlowSDK_1_0_Headers" "D:/Study/Python/Lib/opencv-4.5.0/.cache/nvidia_optical_flow/ca5acedee6cb45d0ec610a6732de5c15-79c6cee80a2df9a196f20afd6b598a9810964c32.zip"

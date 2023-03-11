@@ -1,0 +1,1617 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{170F205B-2526-3E39-A4BC-98B017EAEB52}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>opencv_dnn</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">opencv_dnn.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">opencv_dnn450d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">opencv_dnn.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">opencv_dnn450</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Study\Python\Lib\opencv-4.5.0\build\3rdparty\ippicv\ippicv_win\icv\include;D:\Study\Python\Lib\opencv-4.5.0\build\3rdparty\ippicv\ippicv_win\iw\include;D:\Study\Python\Lib\opencv-4.5.0\build;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\include;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudev\include;D:\Study\Python\Lib\opencv-4.5.0\modules\core\include;D:\Study\Python\Lib\opencv-4.5.0\modules\imgproc\include;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\misc\caffe;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\misc\tensorflow;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\misc\onnx;D:\Study\Python\Lib\opencv-4.5.0\3rdparty\include\opencl\1.2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/include" /external:I "D:/Study/Python/Lib/opencv-4.5.0/3rdparty/protobuf/src" /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4127;4251;4324;4275;4512;4589;4244;4267;4018;4355;4800;4251;4996;4146;4305;4127;4100;4512;4125;4389;4510;4610;4702;4456;4457;4065;4310;4661;4506;4125;4267;4127;4244;4512;4702;4456;4510;4610;4800;4701;4703;4505;4458</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;__OPENCV_BUILD=1;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;CV_OCL4DNN=1;CV_CUDA4DNN=1;_CRT_SECURE_NO_WARNINGS=1;HAVE_PROTOBUF=1;CMAKE_INTDIR="Debug";CVAPI_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>D:\Study\Python\Lib\opencv-4.5.0\build\lib\Debug\opencv_dnn450d.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;__OPENCV_BUILD=1;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;CV_OCL4DNN=1;CV_CUDA4DNN=1;_CRT_SECURE_NO_WARNINGS=1;HAVE_PROTOBUF=1;CMAKE_INTDIR=\"Debug\";CVAPI_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Study\Python\Lib\opencv-4.5.0\build\3rdparty\ippicv\ippicv_win\icv\include;D:\Study\Python\Lib\opencv-4.5.0\build\3rdparty\ippicv\ippicv_win\iw\include;D:\Study\Python\Lib\opencv-4.5.0\build;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\include;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudev\include;D:\Study\Python\Lib\opencv-4.5.0\modules\core\include;D:\Study\Python\Lib\opencv-4.5.0\modules\imgproc\include;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\misc\caffe;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\misc\tensorflow;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\misc\onnx;D:\Study\Python\Lib\opencv-4.5.0\3rdparty\include\opencl\1.2;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include;D:\Study\Python\Lib\opencv-4.5.0\3rdparty\protobuf\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Study\Python\Lib\opencv-4.5.0\build\3rdparty\ippicv\ippicv_win\icv\include;D:\Study\Python\Lib\opencv-4.5.0\build\3rdparty\ippicv\ippicv_win\iw\include;D:\Study\Python\Lib\opencv-4.5.0\build;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\include;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudev\include;D:\Study\Python\Lib\opencv-4.5.0\modules\core\include;D:\Study\Python\Lib\opencv-4.5.0\modules\imgproc\include;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\misc\caffe;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\misc\tensorflow;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\misc\onnx;D:\Study\Python\Lib\opencv-4.5.0\3rdparty\include\opencl\1.2;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include;D:\Study\Python\Lib\opencv-4.5.0\3rdparty\protobuf\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Debug\opencv_imgproc450d.lib;..\..\3rdparty\lib\Debug\ippiwd.lib;..\..\3rdparty\ippicv\ippicv_win\icv\lib\intel64\ippicvmt.lib;cudart_static.lib;nppc.lib;nppial.lib;nppicc.lib;nppicom.lib;nppidei.lib;nppif.lib;nppig.lib;nppim.lib;nppist.lib;nppisu.lib;nppitc.lib;npps.lib;cublas.lib;cudnn.lib;cufft.lib;-LIBPATH:C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/lib/x64;..\..\3rdparty\lib\Debug\libprotobufd.lib;cudart_static.lib;nppc.lib;nppial.lib;nppicc.lib;nppicom.lib;nppidei.lib;nppif.lib;nppig.lib;nppim.lib;nppist.lib;nppisu.lib;nppitc.lib;npps.lib;..\..\lib\Debug\opencv_core450d.lib;..\..\lib\Debug\opencv_cudev450d.lib;cublas.lib;cudnn.lib;cufft.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/lib/x64;C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>libc;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Study/Python/Lib/opencv-4.5.0/build/lib/Debug/opencv_dnn450d.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Study/Python/Lib/opencv-4.5.0/build/bin/Debug/opencv_dnn450d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Study\Python\Lib\opencv-4.5.0\build\3rdparty\ippicv\ippicv_win\icv\include;D:\Study\Python\Lib\opencv-4.5.0\build\3rdparty\ippicv\ippicv_win\iw\include;D:\Study\Python\Lib\opencv-4.5.0\build;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\include;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudev\include;D:\Study\Python\Lib\opencv-4.5.0\modules\core\include;D:\Study\Python\Lib\opencv-4.5.0\modules\imgproc\include;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\misc\caffe;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\misc\tensorflow;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\misc\onnx;D:\Study\Python\Lib\opencv-4.5.0\3rdparty\include\opencl\1.2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/include" /external:I "D:/Study/Python/Lib/opencv-4.5.0/3rdparty/protobuf/src" /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4127;4251;4324;4275;4512;4589;4244;4267;4018;4355;4800;4251;4996;4146;4305;4127;4100;4512;4125;4389;4510;4610;4702;4456;4457;4065;4310;4661;4506;4125;4267;4127;4244;4512;4702;4456;4510;4610;4800;4701;4703;4505;4458</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;__OPENCV_BUILD=1;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;CV_OCL4DNN=1;CV_CUDA4DNN=1;_CRT_SECURE_NO_WARNINGS=1;HAVE_PROTOBUF=1;CMAKE_INTDIR="Release";CVAPI_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ProgramDataBaseFileName>D:\Study\Python\Lib\opencv-4.5.0\build\lib\Release\opencv_dnn450.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;__OPENCV_BUILD=1;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;CV_OCL4DNN=1;CV_CUDA4DNN=1;_CRT_SECURE_NO_WARNINGS=1;HAVE_PROTOBUF=1;CMAKE_INTDIR=\"Release\";CVAPI_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Study\Python\Lib\opencv-4.5.0\build\3rdparty\ippicv\ippicv_win\icv\include;D:\Study\Python\Lib\opencv-4.5.0\build\3rdparty\ippicv\ippicv_win\iw\include;D:\Study\Python\Lib\opencv-4.5.0\build;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\include;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudev\include;D:\Study\Python\Lib\opencv-4.5.0\modules\core\include;D:\Study\Python\Lib\opencv-4.5.0\modules\imgproc\include;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\misc\caffe;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\misc\tensorflow;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\misc\onnx;D:\Study\Python\Lib\opencv-4.5.0\3rdparty\include\opencl\1.2;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include;D:\Study\Python\Lib\opencv-4.5.0\3rdparty\protobuf\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Study\Python\Lib\opencv-4.5.0\build\3rdparty\ippicv\ippicv_win\icv\include;D:\Study\Python\Lib\opencv-4.5.0\build\3rdparty\ippicv\ippicv_win\iw\include;D:\Study\Python\Lib\opencv-4.5.0\build;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\include;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn;D:\Study\Python\Lib\opencv_contrib-4.5.0\modules\cudev\include;D:\Study\Python\Lib\opencv-4.5.0\modules\core\include;D:\Study\Python\Lib\opencv-4.5.0\modules\imgproc\include;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\misc\caffe;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\misc\tensorflow;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\misc\onnx;D:\Study\Python\Lib\opencv-4.5.0\3rdparty\include\opencl\1.2;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include;D:\Study\Python\Lib\opencv-4.5.0\3rdparty\protobuf\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Release\opencv_imgproc450.lib;..\..\3rdparty\lib\Release\ippiw.lib;..\..\3rdparty\ippicv\ippicv_win\icv\lib\intel64\ippicvmt.lib;cudart_static.lib;nppc.lib;nppial.lib;nppicc.lib;nppicom.lib;nppidei.lib;nppif.lib;nppig.lib;nppim.lib;nppist.lib;nppisu.lib;nppitc.lib;npps.lib;cublas.lib;cudnn.lib;cufft.lib;-LIBPATH:C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/lib/x64;..\..\3rdparty\lib\Release\libprotobuf.lib;cudart_static.lib;nppc.lib;nppial.lib;nppicc.lib;nppicom.lib;nppidei.lib;nppif.lib;nppig.lib;nppim.lib;nppist.lib;nppisu.lib;nppitc.lib;npps.lib;..\..\lib\Release\opencv_core450.lib;..\..\lib\Release\opencv_cudev450.lib;cublas.lib;cudnn.lib;cufft.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/lib/x64;C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>libc;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Study/Python/Lib/opencv-4.5.0/build/lib/Release/opencv_dnn450.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Study/Python/Lib/opencv-4.5.0/build/bin/Release/opencv_dnn450.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv-4.5.0\build\CMakeFiles\06de35fb9d6d7bf2ec7218ad27718e0b\opencl_kernels_dnn.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Processing OpenCL kernels (dnn)</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DMODULE_NAME=dnn -DCL_DIR=D:/Study/Python/Lib/opencv-4.5.0/modules/dnn/src/opencl -DOUTPUT=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/opencl_kernels_dnn.cpp -P D:/Study/Python/Lib/opencv-4.5.0/cmake/cl2cpp.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\activations.cl;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\batchnorm.cl;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\col2im.cl;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\concat.cl;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\conv_layer_spatial.cl;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\conv_spatial_helper.cl;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\detection_output.cl;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\dummy.cl;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\eltwise.cl;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\gemm_buffer.cl;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\gemm_image.cl;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\im2col.cl;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\lrn.cl;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\math.cl;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\matvec_mul.cl;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\mvn.cl;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\ocl4dnn_lrn.cl;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\ocl4dnn_pooling.cl;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\permute.cl;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\pooling.cl;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\prior_box.cl;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\region.cl;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\slice.cl;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\softmax.cl;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\softmax_loss.cl;D:\Study\Python\Lib\opencv-4.5.0\cmake\cl2cpp.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\opencl_kernels_dnn.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Processing OpenCL kernels (dnn)</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DMODULE_NAME=dnn -DCL_DIR=D:/Study/Python/Lib/opencv-4.5.0/modules/dnn/src/opencl -DOUTPUT=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/opencl_kernels_dnn.cpp -P D:/Study/Python/Lib/opencv-4.5.0/cmake/cl2cpp.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\activations.cl;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\batchnorm.cl;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\col2im.cl;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\concat.cl;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\conv_layer_spatial.cl;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\conv_spatial_helper.cl;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\detection_output.cl;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\dummy.cl;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\eltwise.cl;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\gemm_buffer.cl;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\gemm_image.cl;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\im2col.cl;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\lrn.cl;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\math.cl;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\matvec_mul.cl;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\mvn.cl;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\ocl4dnn_lrn.cl;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\ocl4dnn_pooling.cl;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\permute.cl;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\pooling.cl;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\prior_box.cl;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\region.cl;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\slice.cl;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\softmax.cl;D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\softmax_loss.cl;D:\Study\Python\Lib\opencv-4.5.0\cmake\cl2cpp.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\opencl_kernels_dnn.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda\activation_eltwise.cu">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_activation_eltwise.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_activation_eltwise.cu.obj -D generated_cubin_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_activation_eltwise.cu.obj.cubin.txt -P D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_activation_eltwise.cu.obj.Debug.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_activation_eltwise.cu.obj.depend;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_activation_eltwise.cu.obj.Debug.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_activation_eltwise.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_activation_eltwise.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_activation_eltwise.cu.obj -D generated_cubin_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_activation_eltwise.cu.obj.cubin.txt -P D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_activation_eltwise.cu.obj.Release.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_activation_eltwise.cu.obj.depend;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_activation_eltwise.cu.obj.Release.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_activation_eltwise.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda\activations.cu">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_activations.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_activations.cu.obj -D generated_cubin_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_activations.cu.obj.cubin.txt -P D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_activations.cu.obj.Debug.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_activations.cu.obj.depend;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_activations.cu.obj.Debug.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_activations.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_activations.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_activations.cu.obj -D generated_cubin_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_activations.cu.obj.cubin.txt -P D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_activations.cu.obj.Release.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_activations.cu.obj.depend;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_activations.cu.obj.Release.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_activations.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda\bias_activation.cu">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_bias_activation.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_bias_activation.cu.obj -D generated_cubin_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_bias_activation.cu.obj.cubin.txt -P D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_bias_activation.cu.obj.Debug.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_bias_activation.cu.obj.depend;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_bias_activation.cu.obj.Debug.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_bias_activation.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_bias_activation.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_bias_activation.cu.obj -D generated_cubin_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_bias_activation.cu.obj.cubin.txt -P D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_bias_activation.cu.obj.Release.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_bias_activation.cu.obj.depend;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_bias_activation.cu.obj.Release.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_bias_activation.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda\bias_activation_eltwise.cu">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_bias_activation_eltwise.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_bias_activation_eltwise.cu.obj -D generated_cubin_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_bias_activation_eltwise.cu.obj.cubin.txt -P D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_bias_activation_eltwise.cu.obj.Debug.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_bias_activation_eltwise.cu.obj.depend;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_bias_activation_eltwise.cu.obj.Debug.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_bias_activation_eltwise.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_bias_activation_eltwise.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_bias_activation_eltwise.cu.obj -D generated_cubin_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_bias_activation_eltwise.cu.obj.cubin.txt -P D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_bias_activation_eltwise.cu.obj.Release.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_bias_activation_eltwise.cu.obj.depend;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_bias_activation_eltwise.cu.obj.Release.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_bias_activation_eltwise.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda\bias_eltwise_activation.cu">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_bias_eltwise_activation.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_bias_eltwise_activation.cu.obj -D generated_cubin_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_bias_eltwise_activation.cu.obj.cubin.txt -P D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_bias_eltwise_activation.cu.obj.Debug.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_bias_eltwise_activation.cu.obj.depend;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_bias_eltwise_activation.cu.obj.Debug.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_bias_eltwise_activation.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_bias_eltwise_activation.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_bias_eltwise_activation.cu.obj -D generated_cubin_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_bias_eltwise_activation.cu.obj.cubin.txt -P D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_bias_eltwise_activation.cu.obj.Release.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_bias_eltwise_activation.cu.obj.depend;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_bias_eltwise_activation.cu.obj.Release.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_bias_eltwise_activation.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda\concat.cu">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_concat.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_concat.cu.obj -D generated_cubin_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_concat.cu.obj.cubin.txt -P D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_concat.cu.obj.Debug.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_concat.cu.obj.depend;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_concat.cu.obj.Debug.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_concat.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_concat.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_concat.cu.obj -D generated_cubin_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_concat.cu.obj.cubin.txt -P D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_concat.cu.obj.Release.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_concat.cu.obj.depend;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_concat.cu.obj.Release.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_concat.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda\crop_and_resize.cu">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_crop_and_resize.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_crop_and_resize.cu.obj -D generated_cubin_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_crop_and_resize.cu.obj.cubin.txt -P D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_crop_and_resize.cu.obj.Debug.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_crop_and_resize.cu.obj.depend;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_crop_and_resize.cu.obj.Debug.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_crop_and_resize.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_crop_and_resize.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_crop_and_resize.cu.obj -D generated_cubin_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_crop_and_resize.cu.obj.cubin.txt -P D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_crop_and_resize.cu.obj.Release.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_crop_and_resize.cu.obj.depend;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_crop_and_resize.cu.obj.Release.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_crop_and_resize.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda\detection_output.cu">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_detection_output.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_detection_output.cu.obj -D generated_cubin_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_detection_output.cu.obj.cubin.txt -P D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_detection_output.cu.obj.Debug.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_detection_output.cu.obj.depend;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_detection_output.cu.obj.Debug.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_detection_output.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_detection_output.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_detection_output.cu.obj -D generated_cubin_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_detection_output.cu.obj.cubin.txt -P D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_detection_output.cu.obj.Release.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_detection_output.cu.obj.depend;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_detection_output.cu.obj.Release.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_detection_output.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda\eltwise_activation.cu">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_eltwise_activation.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_eltwise_activation.cu.obj -D generated_cubin_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_eltwise_activation.cu.obj.cubin.txt -P D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_eltwise_activation.cu.obj.Debug.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_eltwise_activation.cu.obj.depend;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_eltwise_activation.cu.obj.Debug.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_eltwise_activation.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_eltwise_activation.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_eltwise_activation.cu.obj -D generated_cubin_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_eltwise_activation.cu.obj.cubin.txt -P D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_eltwise_activation.cu.obj.Release.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_eltwise_activation.cu.obj.depend;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_eltwise_activation.cu.obj.Release.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_eltwise_activation.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda\eltwise_ops.cu">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_eltwise_ops.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_eltwise_ops.cu.obj -D generated_cubin_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_eltwise_ops.cu.obj.cubin.txt -P D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_eltwise_ops.cu.obj.Debug.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_eltwise_ops.cu.obj.depend;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_eltwise_ops.cu.obj.Debug.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_eltwise_ops.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_eltwise_ops.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_eltwise_ops.cu.obj -D generated_cubin_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_eltwise_ops.cu.obj.cubin.txt -P D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_eltwise_ops.cu.obj.Release.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_eltwise_ops.cu.obj.depend;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_eltwise_ops.cu.obj.Release.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_eltwise_ops.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda\fill_copy.cu">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_fill_copy.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_fill_copy.cu.obj -D generated_cubin_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_fill_copy.cu.obj.cubin.txt -P D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_fill_copy.cu.obj.Debug.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_fill_copy.cu.obj.depend;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_fill_copy.cu.obj.Debug.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_fill_copy.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_fill_copy.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_fill_copy.cu.obj -D generated_cubin_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_fill_copy.cu.obj.cubin.txt -P D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_fill_copy.cu.obj.Release.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_fill_copy.cu.obj.depend;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_fill_copy.cu.obj.Release.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_fill_copy.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda\fp_conversion.cu">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_fp_conversion.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_fp_conversion.cu.obj -D generated_cubin_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_fp_conversion.cu.obj.cubin.txt -P D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_fp_conversion.cu.obj.Debug.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_fp_conversion.cu.obj.depend;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_fp_conversion.cu.obj.Debug.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_fp_conversion.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_fp_conversion.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_fp_conversion.cu.obj -D generated_cubin_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_fp_conversion.cu.obj.cubin.txt -P D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_fp_conversion.cu.obj.Release.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_fp_conversion.cu.obj.depend;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_fp_conversion.cu.obj.Release.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_fp_conversion.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda\grid_nms.cu">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_grid_nms.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_grid_nms.cu.obj -D generated_cubin_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_grid_nms.cu.obj.cubin.txt -P D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_grid_nms.cu.obj.Debug.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_grid_nms.cu.obj.depend;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_grid_nms.cu.obj.Debug.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_grid_nms.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_grid_nms.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_grid_nms.cu.obj -D generated_cubin_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_grid_nms.cu.obj.cubin.txt -P D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_grid_nms.cu.obj.Release.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_grid_nms.cu.obj.depend;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_grid_nms.cu.obj.Release.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_grid_nms.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda\max_unpooling.cu">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_max_unpooling.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_max_unpooling.cu.obj -D generated_cubin_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_max_unpooling.cu.obj.cubin.txt -P D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_max_unpooling.cu.obj.Debug.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_max_unpooling.cu.obj.depend;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_max_unpooling.cu.obj.Debug.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_max_unpooling.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_max_unpooling.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_max_unpooling.cu.obj -D generated_cubin_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_max_unpooling.cu.obj.cubin.txt -P D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_max_unpooling.cu.obj.Release.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_max_unpooling.cu.obj.depend;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_max_unpooling.cu.obj.Release.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_max_unpooling.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda\mvn.cu">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_mvn.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_mvn.cu.obj -D generated_cubin_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_mvn.cu.obj.cubin.txt -P D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_mvn.cu.obj.Debug.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_mvn.cu.obj.depend;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_mvn.cu.obj.Debug.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_mvn.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_mvn.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_mvn.cu.obj -D generated_cubin_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_mvn.cu.obj.cubin.txt -P D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_mvn.cu.obj.Release.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_mvn.cu.obj.depend;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_mvn.cu.obj.Release.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_mvn.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda\normalize.cu">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_normalize.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_normalize.cu.obj -D generated_cubin_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_normalize.cu.obj.cubin.txt -P D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_normalize.cu.obj.Debug.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_normalize.cu.obj.depend;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_normalize.cu.obj.Debug.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_normalize.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_normalize.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_normalize.cu.obj -D generated_cubin_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_normalize.cu.obj.cubin.txt -P D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_normalize.cu.obj.Release.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_normalize.cu.obj.depend;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_normalize.cu.obj.Release.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_normalize.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda\padding.cu">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_padding.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_padding.cu.obj -D generated_cubin_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_padding.cu.obj.cubin.txt -P D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_padding.cu.obj.Debug.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_padding.cu.obj.depend;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_padding.cu.obj.Debug.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_padding.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_padding.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_padding.cu.obj -D generated_cubin_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_padding.cu.obj.cubin.txt -P D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_padding.cu.obj.Release.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_padding.cu.obj.depend;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_padding.cu.obj.Release.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_padding.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda\permute.cu">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_permute.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_permute.cu.obj -D generated_cubin_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_permute.cu.obj.cubin.txt -P D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_permute.cu.obj.Debug.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_permute.cu.obj.depend;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_permute.cu.obj.Debug.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_permute.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_permute.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_permute.cu.obj -D generated_cubin_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_permute.cu.obj.cubin.txt -P D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_permute.cu.obj.Release.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_permute.cu.obj.depend;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_permute.cu.obj.Release.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_permute.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda\prior_box.cu">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_prior_box.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_prior_box.cu.obj -D generated_cubin_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_prior_box.cu.obj.cubin.txt -P D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_prior_box.cu.obj.Debug.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_prior_box.cu.obj.depend;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_prior_box.cu.obj.Debug.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_prior_box.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_prior_box.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_prior_box.cu.obj -D generated_cubin_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_prior_box.cu.obj.cubin.txt -P D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_prior_box.cu.obj.Release.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_prior_box.cu.obj.depend;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_prior_box.cu.obj.Release.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_prior_box.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda\region.cu">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_region.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_region.cu.obj -D generated_cubin_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_region.cu.obj.cubin.txt -P D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_region.cu.obj.Debug.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_region.cu.obj.depend;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_region.cu.obj.Debug.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_region.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_region.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_region.cu.obj -D generated_cubin_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_region.cu.obj.cubin.txt -P D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_region.cu.obj.Release.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_region.cu.obj.depend;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_region.cu.obj.Release.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_region.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda\resize.cu">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_resize.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_resize.cu.obj -D generated_cubin_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_resize.cu.obj.cubin.txt -P D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_resize.cu.obj.Debug.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_resize.cu.obj.depend;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_resize.cu.obj.Debug.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_resize.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_resize.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_resize.cu.obj -D generated_cubin_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_resize.cu.obj.cubin.txt -P D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_resize.cu.obj.Release.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_resize.cu.obj.depend;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_resize.cu.obj.Release.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_resize.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda\roi_pooling.cu">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_roi_pooling.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_roi_pooling.cu.obj -D generated_cubin_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_roi_pooling.cu.obj.cubin.txt -P D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_roi_pooling.cu.obj.Debug.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_roi_pooling.cu.obj.depend;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_roi_pooling.cu.obj.Debug.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_roi_pooling.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_roi_pooling.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_roi_pooling.cu.obj -D generated_cubin_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_roi_pooling.cu.obj.cubin.txt -P D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_roi_pooling.cu.obj.Release.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_roi_pooling.cu.obj.depend;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_roi_pooling.cu.obj.Release.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_roi_pooling.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda\scale_shift.cu">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_scale_shift.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_scale_shift.cu.obj -D generated_cubin_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_scale_shift.cu.obj.cubin.txt -P D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_scale_shift.cu.obj.Debug.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_scale_shift.cu.obj.depend;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_scale_shift.cu.obj.Debug.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_scale_shift.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_scale_shift.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_scale_shift.cu.obj -D generated_cubin_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_scale_shift.cu.obj.cubin.txt -P D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_scale_shift.cu.obj.Release.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_scale_shift.cu.obj.depend;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_scale_shift.cu.obj.Release.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_scale_shift.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda\shortcut.cu">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_shortcut.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_shortcut.cu.obj -D generated_cubin_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_shortcut.cu.obj.cubin.txt -P D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_shortcut.cu.obj.Debug.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_shortcut.cu.obj.depend;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_shortcut.cu.obj.Debug.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_shortcut.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_shortcut.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_shortcut.cu.obj -D generated_cubin_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_shortcut.cu.obj.cubin.txt -P D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_shortcut.cu.obj.Release.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_shortcut.cu.obj.depend;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_shortcut.cu.obj.Release.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_shortcut.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda\slice.cu">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_slice.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_slice.cu.obj -D generated_cubin_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_slice.cu.obj.cubin.txt -P D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_slice.cu.obj.Debug.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_slice.cu.obj.depend;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_slice.cu.obj.Debug.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_slice.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building NVCC (Device) object modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_slice.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_slice.cu.obj -D generated_cubin_file:STRING=D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_slice.cu.obj.cubin.txt -P D:/Study/Python/Lib/opencv-4.5.0/build/modules/dnn/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_slice.cu.obj.Release.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_slice.cu.obj.depend;D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\cuda_compile_1_generated_slice.cu.obj.Release.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_slice.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\include\opencv2\dnn.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\include\opencv2\dnn\all_layers.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\include\opencv2\dnn\dict.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\include\opencv2\dnn\dnn.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\include\opencv2\dnn\dnn.inl.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\include\opencv2\dnn\layer.details.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\include\opencv2\dnn\layer.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\include\opencv2\dnn\shape_utils.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\include\opencv2\dnn\utils\inference_engine.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\include\opencv2\dnn\version.hpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\misc\caffe\opencv-caffe.pb.cc" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\misc\onnx\opencv-onnx.pb.cc" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\misc\tensorflow\attr_value.pb.cc" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\misc\tensorflow\function.pb.cc" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\misc\tensorflow\graph.pb.cc" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\misc\tensorflow\op_def.pb.cc" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\misc\tensorflow\tensor.pb.cc" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\misc\tensorflow\tensor_shape.pb.cc" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\misc\tensorflow\types.pb.cc" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\misc\tensorflow\versions.pb.cc" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\caffe\caffe_importer.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\caffe\caffe_io.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\caffe\caffe_shrinker.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\darknet\darknet_importer.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\darknet\darknet_io.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\dnn.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\graph_simplifier.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\halide_scheduler.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\ie_ngraph.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\init.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\layers\accum_layer.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\layers\batch_norm_layer.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\layers\blank_layer.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\layers\concat_layer.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\layers\const_layer.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\layers\convolution_layer.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\layers\correlation_layer.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\layers\crop_and_resize_layer.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\layers\detection_output_layer.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\layers\elementwise_layers.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\layers\eltwise_layer.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\layers\flatten_layer.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\layers\flow_warp_layer.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\layers\fully_connected_layer.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\layers\layers_common.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\layers\lrn_layer.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\layers\max_unpooling_layer.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\layers\mvn_layer.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\layers\normalize_bbox_layer.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\layers\padding_layer.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\layers\permute_layer.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\layers\pooling_layer.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\layers\prior_box_layer.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\layers\proposal_layer.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\layers\recurrent_layers.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\layers\region_layer.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\layers\reorg_layer.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\layers\reshape_layer.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\layers\resize_layer.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\layers\scale_layer.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\layers\shuffle_channel_layer.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\layers\slice_layer.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\layers\softmax_layer.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\layers\split_layer.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\model.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\nms.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\ocl4dnn\src\common.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\ocl4dnn\src\math_functions.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\ocl4dnn\src\ocl4dnn_conv_spatial.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\ocl4dnn\src\ocl4dnn_inner_product.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\ocl4dnn\src\ocl4dnn_lrn.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\ocl4dnn\src\ocl4dnn_pool.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\ocl4dnn\src\ocl4dnn_softmax.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\onnx\onnx_graph_simplifier.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\onnx\onnx_importer.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\op_halide.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\op_inf_engine.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\op_vkcom.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\tengine4dnn\src\tengine_graph_convolution.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\tensorflow\tf_graph_simplifier.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\tensorflow\tf_importer.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\tensorflow\tf_io.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\torch\THDiskFile.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\torch\THFile.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\torch\THGeneral.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\torch\torch_importer.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\vkcom\shader\avg_pool_spv.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\vkcom\shader\concat_spv.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\vkcom\shader\conv48_spv.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\vkcom\shader\conv_spv.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\vkcom\shader\dw_conv_spv.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\vkcom\shader\lrn_spv.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\vkcom\shader\max_pool_spv.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\vkcom\shader\permute_spv.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\vkcom\shader\prior_box_spv.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\vkcom\shader\relu_spv.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\vkcom\shader\softmax_spv.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\vkcom\src\buffer.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\vkcom\src\context.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\vkcom\src\internal.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\vkcom\src\op_base.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\vkcom\src\op_concat.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\vkcom\src\op_conv.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\vkcom\src\op_lrn.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\vkcom\src\op_permute.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\vkcom\src\op_pool.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\vkcom\src\op_prior_box.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\vkcom\src\op_relu.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\vkcom\src\op_softmax.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\vkcom\src\tensor.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\vkcom\vulkan\vk_functions.cpp" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\vkcom\vulkan\vk_loader.cpp" />
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\activations.cl">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\batchnorm.cl">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\col2im.cl">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\concat.cl">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\conv_layer_spatial.cl">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\conv_spatial_helper.cl">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\detection_output.cl">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\dummy.cl">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\eltwise.cl">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\gemm_buffer.cl">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\gemm_image.cl">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\im2col.cl">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\lrn.cl">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\math.cl">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\matvec_mul.cl">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\mvn.cl">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\ocl4dnn_lrn.cl">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\ocl4dnn_pooling.cl">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\permute.cl">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\pooling.cl">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\prior_box.cl">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\region.cl">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\slice.cl">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\softmax.cl">
+    </None>
+    <None Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\opencl\softmax_loss.cl">
+    </None>
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\opencl_kernels_dnn.cpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\opencl_kernels_dnn.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\caffe\caffe_io.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\caffe\glog_emulator.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda\array.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda\atomics.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda\bbox_utils.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda\block_stride_range.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda\execution.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda\functors.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda\grid_stride_range.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda\index_helpers.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda\kernel_dispatcher.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda\limits.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda\math.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda\memory.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda\types.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda\vector_traits.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\csl\cublas.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\csl\cudnn.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\csl\cudnn\activation.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\csl\cudnn\convolution.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\csl\cudnn\cudnn.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\csl\cudnn\lrn.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\csl\cudnn\pooling.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\csl\cudnn\softmax.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\csl\cudnn\transform.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\csl\cudnn\transpose_convolution.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\csl\error.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\csl\event.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\csl\memory.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\csl\nvcc_defs.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\csl\pointer.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\csl\span.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\csl\stream.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\csl\tensor.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\csl\tensor_ops.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\csl\workspace.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\cxx_utils\is_iterator.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\cxx_utils\resizable_static_array.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\init.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\kernels\activation_eltwise.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\kernels\activations.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\kernels\bias_activation.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\kernels\bias_activation_eltwise.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\kernels\bias_eltwise_activation.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\kernels\concat.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\kernels\crop_and_resize.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\kernels\detection_output.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\kernels\eltwise_activation.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\kernels\eltwise_ops.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\kernels\fill_copy.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\kernels\fp_conversion.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\kernels\grid_nms.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\kernels\max_unpooling.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\kernels\mvn.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\kernels\normalize.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\kernels\padding.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\kernels\permute.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\kernels\prior_box.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\kernels\region.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\kernels\resize.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\kernels\roi_pooling.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\kernels\scale_shift.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\kernels\shortcut.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\kernels\slice.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\primitives\activation.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\primitives\batch_norm.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\primitives\concat.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\primitives\const.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\primitives\convolution.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\primitives\crop_and_resize.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\primitives\detection_output.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\primitives\eltwise.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\primitives\inner_product.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\primitives\lrn.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\primitives\max_unpooling.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\primitives\mvn.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\primitives\normalize_bbox.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\primitives\padding.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\primitives\permute.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\primitives\pooling.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\primitives\prior_box.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\primitives\region.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\primitives\reorg.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\primitives\reshape.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\primitives\resize.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\primitives\roi_pooling.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\primitives\scale_shift.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\primitives\shortcut.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\primitives\shuffle_channel.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\primitives\slice.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\primitives\softmax.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\primitives\split.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\cuda4dnn\primitives\transpose_convolution.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\darknet\darknet_io.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\dnn_common.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\graph_simplifier.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\halide_scheduler.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\ie_ngraph.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\layers\layers_common.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\layers\layers_common.simd.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\nms.inl.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\ocl4dnn\include\common.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\ocl4dnn\include\default_kernel_config.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\ocl4dnn\include\math_functions.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\ocl4dnn\include\ocl4dnn.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\onnx\onnx_graph_simplifier.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\op_cuda.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\op_halide.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\op_inf_engine.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\op_vkcom.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\precomp.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\tengine4dnn\include\tengine_graph_convolution.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\tensorflow\tf_graph_simplifier.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\tensorflow\tf_io.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\torch\THDiskFile.h" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\torch\THFile.h" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\torch\THFilePrivate.h" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\torch\THGeneral.h" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\vkcom\include\buffer.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\vkcom\include\op_base.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\vkcom\include\op_concat.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\vkcom\include\op_conv.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\vkcom\include\op_lrn.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\vkcom\include\op_permute.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\vkcom\include\op_pool.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\vkcom\include\op_prior_box.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\vkcom\include\op_relu.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\vkcom\include\op_softmax.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\vkcom\include\tensor.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\vkcom\include\vkcom.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\vkcom\shader\spv_shader.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\vkcom\src\common.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\vkcom\src\context.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\vkcom\src\internal.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\vkcom\vulkan\function_list.inl.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\vkcom\vulkan\vk_functions.hpp" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\modules\dnn\src\vkcom\vulkan\vk_loader.hpp" />
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\opencv_dnn_AVX.dir\$(Configuration)\layers_common.avx.obj" />
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\opencv_dnn_AVX2.dir\$(Configuration)\layers_common.avx2.obj" />
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\opencv_dnn_AVX512_SKX.dir\$(Configuration)\layers_common.avx512_skx.obj" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\build\cvconfig.h" />
+    <ClInclude Include="D:\Study\Python\Lib\opencv-4.5.0\build\opencv2\opencv_modules.hpp" />
+    <ResourceCompile Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\vs_version.rc" />
+    <ClCompile Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\opencv_dnn_main.cpp" />
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_activation_eltwise.cu.obj" />
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_activations.cu.obj" />
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_bias_activation.cu.obj" />
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_bias_activation_eltwise.cu.obj" />
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_bias_eltwise_activation.cu.obj" />
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_concat.cu.obj" />
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_crop_and_resize.cu.obj" />
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_detection_output.cu.obj" />
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_eltwise_activation.cu.obj" />
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_eltwise_ops.cu.obj" />
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_fill_copy.cu.obj" />
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_fp_conversion.cu.obj" />
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_grid_nms.cu.obj" />
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_max_unpooling.cu.obj" />
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_mvn.cu.obj" />
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_normalize.cu.obj" />
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_padding.cu.obj" />
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_permute.cu.obj" />
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_prior_box.cu.obj" />
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_region.cu.obj" />
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_resize.cu.obj" />
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_roi_pooling.cu.obj" />
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_scale_shift.cu.obj" />
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_shortcut.cu.obj" />
+    <Object Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\CMakeFiles\cuda_compile_1.dir\src\cuda\$(Configuration)\cuda_compile_1_generated_slice.cu.obj" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\3rdparty\ippiw\ippiw.vcxproj">
+      <Project>{24CA3400-49FA-35EF-B285-D99AE5E402BC}</Project>
+      <Name>ippiw</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\3rdparty\protobuf\libprotobuf.vcxproj">
+      <Project>{841D42D8-6A7E-36C9-B1D7-6840DD32921E}</Project>
+      <Name>libprotobuf</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\core\opencv_core.vcxproj">
+      <Project>{C6B6D7EF-6768-38D1-94CF-BF70AD3931A6}</Project>
+      <Name>opencv_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\cudev\opencv_cudev.vcxproj">
+      <Project>{C5A1E9EB-8ACD-3F16-902C-3D08DAFBE0C0}</Project>
+      <Name>opencv_cudev</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\opencv_dnn_AVX.vcxproj">
+      <Project>{A32C8352-0020-3A90-A95C-ED85F0A9F5F9}</Project>
+      <Name>opencv_dnn_AVX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\opencv_dnn_AVX2.vcxproj">
+      <Project>{0E5394A9-B249-374E-A150-50E2F2CCE172}</Project>
+      <Name>opencv_dnn_AVX2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\dnn\opencv_dnn_AVX512_SKX.vcxproj">
+      <Project>{5557A89D-595D-31AE-AA66-52AC8EBE382D}</Project>
+      <Name>opencv_dnn_AVX512_SKX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Study\Python\Lib\opencv-4.5.0\build\modules\imgproc\opencv_imgproc.vcxproj">
+      <Project>{34176B70-BA95-353E-891E-E4B5C787C619}</Project>
+      <Name>opencv_imgproc</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

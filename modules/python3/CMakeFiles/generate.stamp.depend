@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+D:/Study/Python/Lib/opencv-4.5.0/modules/python/common.cmake
+D:/Study/Python/Lib/opencv-4.5.0/modules/python/package/template/config-x.y.py.in
+D:/Study/Python/Lib/opencv-4.5.0/modules/python/package/template/config.py.in
+D:/Study/Python/Lib/opencv-4.5.0/modules/python/python3/CMakeLists.txt
+D:/Study/Python/Lib/opencv-4.5.0/modules/python/python_loader.cmake
